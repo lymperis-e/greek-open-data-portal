@@ -13,6 +13,31 @@
             "url": "https://gisserver.statistics.gr/webgis/rest/services/"
         },
         {
+            "type":"group",
+            "name":"Γεωγραφική Υπηρεσία Στρατού",
+            "members":[
+                {
+                    "id": "gys1",
+                    "name": "1",
+                    "type": "esri-group",
+                    "url": "https://services3.arcgis.com/XHzOnTCjjYWQyVf4/arcgis/rest/services/"
+                },
+                {
+                    "id": "gys2",
+                    "name": "2",
+                    "type": "esri-group",
+                    "url": "https://tiles.arcgis.com/tiles/XHzOnTCjjYWQyVf4/arcgis/rest/services/"
+                }
+            ]
+        },
+        {
+            "id": "gys",
+            "name": "Ελληνική Στατιστική Αρχή (ΕΛΣΤΑΤ)",
+            "type": "esri-group",
+            "url": "https://gisserver.statistics.gr/webgis/rest/services/"
+        },
+
+        {
             "type": "group",
             "name": "Υπουργείο Περιβάλλοντος & Ενέργειας",
             "members": [
@@ -52,7 +77,24 @@
                         }
                     ]
                 },
-                
+                {
+                    "type": "group",
+                    "name": "Ειδική Γραμματεία Υδάτων",
+                    "members": [
+                        {
+                            "id": "ypekawfs",
+                            "type": "wfs-group",
+                            "name": "Διανυσματικά",
+                            "url": "http://wfdservices.ypeka.gr/geoserver/wfs"
+                        },
+                        {
+                            "id": "ypekawms",
+                            "type": "wms-group",
+                            "name": "Ψηφιδωτά",
+                            "url": "http://wfdservices.ypeka.gr/geoserver/wms"
+                        }
+                    ]
+                },
                 {
                     "type": "group",
                     "name": "Θαλάσσιος Χώρος / Interreg",
@@ -192,25 +234,6 @@
                     "type": "wms-group",
                     "name": "Ψηφιδωτά",
                     "url": "http://climatlas.hnms.gr/geoserver/wms"
-                }
-            ]
-        },
-        
-        {
-            "type": "group",
-            "name": "ΥΠΕΚΑ",
-            "members": [
-                {
-                    "id": "ypekawfs",
-                    "type": "wfs-group",
-                    "name": "Διανυσματικά",
-                    "url": "http://wfdservices.ypeka.gr/geoserver/wfs"
-                },
-                {
-                    "id": "ypekawms",
-                    "type": "wms-group",
-                    "name": "Ψηφιδωτά",
-                    "url": "http://wfdservices.ypeka.gr/geoserver/wms"
                 }
             ]
         },
@@ -605,7 +628,7 @@
                     ],
                     "opacity": 1.0
                 },
-                "image": "build/TerriaJS/images/basemap_thumbnails/carto_voyager.jpg"
+                "image": "build/TerriaJS/images/basemap_thumbnails/carto-voyager.jpg"
             },
             {
                 "item": {
@@ -617,7 +640,7 @@
                     "accessToken":"pk.eyJ1IjoiZ2VvbWVsYWRtaW4iLCJhIjoiY2t6dmZrdjFrMWt4azJ3bzlranZ3YjM5NCJ9.9uAI-Hji8-N3nXhvfRVl1w",
                     "attribution": "© <a href='https://www.mapbox.com/'>Mapbox Satellite</a>"
                 },
-                "image": "build/TerriaJS/images/basemap_thumbnails/esri.jpg"
+                "image": "build/TerriaJS/images/basemap_thumbnails/mapbox-satellite.jpg"
             },
             {
                 "item": {
@@ -663,7 +686,7 @@
                     ],
                     "opacity": 1.0
                 },
-                "image": "build/TerriaJS/images/basemap_thumbnails/stamen-toner.png"
+                "image": "build/TerriaJS/images/basemap_thumbnails/stamen-toner.jpg"
             },
             {
                 "item": {
@@ -678,7 +701,7 @@
                     ],
                     "opacity": 1.0
                 },
-                "image": "build/TerriaJS/images/basemap_thumbnails/stamen-watercolor.png"
+                "image": "build/TerriaJS/images/basemap_thumbnails/stamen-watercolor.jpg"
             },
             {
                 "item": {
@@ -690,7 +713,7 @@
                     "accessToken":"pk.eyJ1IjoiZ2VvbWVsYWRtaW4iLCJhIjoiY2t6dmZrdjFrMWt4azJ3bzlranZ3YjM5NCJ9.9uAI-Hji8-N3nXhvfRVl1w",
                     "attribution": "© <a href='https://www.mapbox.com/'>Mapbox Mineral</a>"
                 },
-                "image": "build/TerriaJS/images/basemap_thumbnails/mineral.png"
+                "image": "build/TerriaJS/images/basemap_thumbnails/mapbox-mineral.jpg"
             },
             {
                 "item": {
@@ -700,9 +723,9 @@
                     "username":"salvo771997",
                     "styleId": "cl4qvu43c000414pdzw26vpkp",
                     "accessToken":"pk.eyJ1Ijoic2Fsdm83NzE5OTciLCJhIjoiY2w0cXUzMzM5MDh6aTNicGQyMDY2MDRleSJ9.QrbpXjyfhO6VW7LpmTxBPQ",
-                    "attribution": "© <a href='https://www.mapbox.com/'>Mapbox Mineral</a>"
+                    "attribution": "© <a href='https://www.mapbox.com/'>Mapbox Salvo</a>"
                 },
-                "image": "build/TerriaJS/images/basemap_thumbnails/mineral.png"
+                "image": "build/TerriaJS/images/basemap_thumbnails/mapbox-salvo.jpg"
             },
             {
                 "item": {
@@ -712,9 +735,9 @@
                     "username":"geomeladmin",
                     "styleId": "cl4rjhvpk001k15owwppxggyz",
                     "accessToken":"pk.eyJ1Ijoic2Fsdm83NzE5OTciLCJhIjoiY2w0cXUzMzM5MDh6aTNicGQyMDY2MDRleSJ9.QrbpXjyfhO6VW7LpmTxBPQ",
-                    "attribution": "© <a href='https://www.mapbox.com/'>Mapbox Mineral</a>"
+                    "attribution": "© <a href='https://www.mapbox.com/'>Mapbox Camo</a>"
                 },
-                "image": "build/TerriaJS/images/basemap_thumbnails/mineral.png"
+                "image": "build/TerriaJS/images/basemap_thumbnails/mapbox-camo.jpg"
             },
             
             //{
