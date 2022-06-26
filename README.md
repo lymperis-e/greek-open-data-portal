@@ -6,14 +6,21 @@ This project aims to provide a centralised hub to preview, inspect and connect t
 
 Although many organizations in the country federate and provide geospatial information, 
 
-The beast under the hood is the awesome [TerriaMap](https://github.com/TerriaJS/TerriaMap/)
+The beast under the hood is the amazing [TerriaMap](https://github.com/TerriaJS/TerriaMap/)
 
 
-# A federated, organized and centralised catalog
+Feel free to :
+- Contribute 🚀
+- Suggest new data sources 🛸
+
 
 
 
 -------------------
 
 ![Terria logo](logo.png "Terria logo")
+![Terria logo](terria-logo.png "Terria logo")
 
+
+
+<a href="https://www.flaticon.com/free-icons/marker" title="marker icons">Marker icons created by Freepik - Flaticon</a>
