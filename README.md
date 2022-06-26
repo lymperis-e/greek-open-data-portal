@@ -15,5 +15,5 @@ The beast under the hood is the awesome [TerriaMap](https://github.com/TerriaJS/
 
 -------------------
 
-![Terria logo](terria-logo.png "Terria logo")
+![Terria logo](logo.png "Terria logo")
 
