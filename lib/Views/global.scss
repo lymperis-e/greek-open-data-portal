@@ -47,16 +47,17 @@ body {
         // background-repeat: no-repeat;
 
     }
+    
     // Background of whole left panel
     .tjs-standard-user-interface__sidePanel {
-        background:$dark-darker;
+        background: #447e73;//$dark-darker;
     }
     // Individual sections within the left panel
     .tjs-side-panel__workBench {
         font-family:$font-base;
         font-weight:400;
         font-size:18px;
-        background:$dark-darker;
+        background:#54847b;
     }
 
     // All kinds of buttons in various screens
@@ -65,33 +66,36 @@ body {
             font-family: $font-base; 
         }
         &:hover { 
-            color: $color-primary;             
+            color: #5bae9f;//$color-primary;             
         }
     }
 
     // Buttons like "Share" within the map area.
+    
     .tjs-_buttons__btn--map {
-        background: $dark;
+        background: rgb(186, 152, 78);
         &:focus, &:hover { color: white; }
     }
+    
+
 
     // Lat/lon buttons
     .tjs-legend__locationBar, .tjs-legend__distanceLegend {
         
-        background:$dark;
+        background:#447e73;
         color:white;
         &:hover,&:focus { background: $dark; color: white; }
     
     }
-
-    // Progress bar while datasets are loading
-    .tjs-progress-bar__progress-bar {
-        background: $color-primary;
-    }
-
+    */
+  // Progress bar while datasets are loading
+  .tjs-progress-bar__progress-bar {
+    background: #447e73;
+  }
+  /*
     // Flatten and simplify display of timeline controls
     .tjs-timeline-controls__timeline__control {
-        background:$dark-lighter;
+        background:#447e73;
         border:none;
     }
 
@@ -136,6 +140,7 @@ body {
         &:hover { background: $color-secondary; color: white; }
         &:focus { background: $color-primary; color: white;}
     }
+    /*
       // The currently selected item in the list
     .tjs-data-catalog-item__btn-catalog-item--is-previewed {
         ,&:focus {color: $color-primary; }

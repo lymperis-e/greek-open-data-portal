@@ -1,0 +1,1779 @@
+{
+
+    "gettingstarted": {
+      "title": "Ξενικήστε με τον χάρτη",
+      "markdownText": "## Ξεκινήστε με το χάρτη\n\nΑν δεν έχετε εμπειρία με το χάρτη ή τα γεωχωρικά δεδομένα γενικά, το Εισαγωγικό μας βίντεο καλύπτει σύντομα τις βασικές λειτουργίες που θα χρειαστείτε για να προσθέσετε και να εξερευνήσετε τα δεδομένα.\n\nΑν δεν έχετε χρόνο να δείτε το βίντεο, προτείνεται να διερευνήσετε τα παρακάτω:\n\n1. Αναζητήστε μια τοποθεσία για να βρείτε, γρήγορα, μια περιοχή ενδιαφέροντος\n2.  Χρησιμοποιείστε το κουμπί ΄Εξερεύνηση διαθέσιμων δεδομένων' για να δείτε τον κατάλογο των διθέσιμων δεδομένων και να τα προσθέσετε στον χάρτη.\n3. Αλληλεπιδράστε με τα επίπεδα δεδομένων, αλλάζοντας την διαφάνεια και τα σύμβολα, ή επιλέγοντας τα σύνολα που προβάλλονται στον χάρτη, χρησιμοποιώντας την μπάρα στα αριστερά.\n4. Κάντε κλικ στα δεδομένα του χάρτη για να δείτε λεπτομέρειες, ή ακόμη να κατεβάσετε τα αρχικά δεδομένα.\n5. Αλλάξτε το χαρτογραφικπό υπόβαθρο χρησιμοποιώντας την επιλογή 'Προτιμήσεις Χάρτη' για να βελτιστοποιήσετε την χαρτογραφική σύνθεση των δεδομένων σας.\n6. Κάντε zoom και αλλάξτε το οπτικό πεδίο χρησιμοποιώντας τα εργαλεία στα δεξιά της οθόνης.",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/FjSxaviSLhc",
+      "placeholderImage": "https://img.youtube.com/vi/FjSxaviSLhc/maxresdefault.jpg"
+    },
+    "stepbystepguide": {
+      "title": "Οδηγός βήμα προς βήμα",
+      "markdownText": "## Οδηγός βήμα προς βήμα\n\nΔείτε βήμα προς βήμα πως να υλοποιήσετε μερικές κοινές λειτουργίες παρακάτω: ",
+      "gettingstarted": {
+        "title": "Ξεκινώντας με το χάρτη",
+        "step1": {
+          "markdownDescription": "Η αναζήτηση βρίσκεται στην κορυφή του Πάγκου αριστερά",
+          "title": "Αναζητήστε μια τοποθεσία για να προσδιορίσετε μια περιοχή ενδιαφέροντος"
+        },
+        "step2": {
+          "markdownDescription": "Μπορείτε να δείτε τον Κατάλογο δεδομένων οποιαδήποτε στιγμή",
+          "title": "Χρήση \"Εξερεύνηση δεδομένων\" to view data catalogue"
+        },
+        "step3": {
+          "markdownDescription": "Find a dataset of interest",
+          "title": "Search for data or browse catalogue"
+        },
+        "step4": {
+          "title": "Add data to map by clicking on + sign or \"Add to map\" button in preview window",
+          "markdownDescription": ""
+        },
+        "step5": {
+          "title": "Interact with data, including opacity and toggling on & off on the left in your workbench"
+        },
+        "step6": {
+          "title": "Click on data on the map to view more details by triggering Feature Information panel"
+        },
+        "step7": {
+          "title": "Change your basemap using options in \"Map Settings\" to improve contrast"
+        },
+        "step8": {
+          "title": "Zoom and change view using the controls on the right-hand side of the screen"
+        }
+      },
+      "satelliteimagery": {
+        "title": "Adding satellite imagery",
+        "footnote": "Important: Satellite imagery can take a little while to load so please be patient. If images don’t seem to be loading, zoom out a little bit",
+        "step1": {
+          "title": "Find the location to view satellite imagery",
+          "markdownDescription": "- Use the location search or zoom and pan around the map using your mouse or the zoom controls"
+        },
+        "step2": {
+          "title": "Add the satellite imagery to the map",
+          "markdownDescription": "- Open the data catalogue using \"Explore map data\" button\n- Navigate through datasets to select your satellite option: Landsat or Sentinel, and daily or composite images. This can depend on resolution of the image you need (10m or 25m) and whether you want daily, 16 day composite, or annual average images\n - Select \"Add to the map\" to view the satellite imagery"
+        },
+        "step3": {
+          "title": "Filter images to find satellite imagery",
+          "markdownDescription": "- Filter images by location to quickly find satellite images for that location\n - Satellites circle the globe many times a day. You can expect satellite imagery to be available for one location every two weeks\n - If you haven't already selected your point of interest on the map, zoom in to select one. You will see the filter applied in blue in the Workbench on the left"
+        },
+        "step4": {
+          "title": "Select a time and date",
+          "markdownDescription": "- Use the date picker to select a time and date. Cycle backwards through previous years using the back arrow\n - Choose another date if your imagery is obscured by clouds. You can quickly cycle back and forward using the arrows next to the date picker"
+        }
+      },
+      "comparetimeseries": {
+        "title": "View and compare different points in time",
+        "footnote": "Important: Any time series data can be compared using the Split Screen Mode, not just satellite imagery",
+        "step1": {
+          "title": "Add a time series dataset to the map",
+          "markdownDescription": "- Satellite imagery is a good example of time series data, with many satellites going back decades\n- Find your location of interest and filter available imagery by this location\n-See our Adding Satellite Imagery to the Map guide for more"
+        },
+        "step2": {
+          "title": "Select the time and date",
+          "markdownDescription": "- In the workbench on the left, select the time and date which will open the date picker\n- Select a year, month and date, or navigate back to other years and even centuries using the back arrow\n- Available dates appear in blue"
+        },
+        "step3": {
+          "title": "Compare different dates at one location",
+          "markdownDescription": "- From the 3 dots drop-down menu in the workbench, press 'Compare' to activate Split Screen Mode\n- A duplicate copy of your dataset will appear in the workbench\n- Choose the dates you want to compare on the left and right of the screen\n- Drag the slider using the white button to swipe and compare the two image dates"
+        },
+        "step4": {
+          "title": "Close Split Screen Mode",
+          "markdownDescription": "- Escape the Split Screen Mode by pressing the 'x' of Split Screen Mode title in the workbench\n- Remove the duplicate copy of your dataset in the workbench using the 3 dots drop-down menu"
+        }
+      }
+    },
+    "helpContentTerm1": {
+      "term": "dataset",
+      "aliases": [
+        "data set",
+        "data sets",
+        "datasets"
+      ],
+      "content": "A collection of related information, organised as one using a common data structure, e.g. \"average house prices in Sydney for 2019\" or \"minimum and maximum daily temperature\""
+    },
+    "helpContentTerm2": {
+      "term": "time series",
+      "aliases": [
+        "timeseries"
+      ],
+      "content": "A sequence of data collected over different points in time, e.g. temperature sensor data or a gallery of images of the same location"
+    },
+    "helpContentTerm3": {
+      "term": "Πάγκος",
+      "aliases": [
+        "πάγκος",
+        "πάγκου",
+        "Πάγκου",
+        "Πάγκο"
+      ],
+      "content": "Το panel στα αριστερά της οθόνης, στο οποίο βλέπετε τα σύνολα δεδομένων που έχετε προσθέσει στον χάρτη."
+    },
+    "helpContentTerm4": {
+      "term": "4D",
+      "content": "3D data that also has a time-series component"
+    },
+    "helpContentTerm5": {
+      "term": "Κατάλογος",
+      "aliases": [
+        "κατάλογος",
+        "κατάλογο",
+        "Κατάλογο",
+        "Κατάλογο"
+      ],
+      "content": "the inventory of all datasets available to be added to the map"
+    },
+    "helpContentTerm6": {
+      "term": "base maps",
+      "aliases": [
+        "basemap",
+        "base map",
+        "basemaps"
+      ],
+      "content": "Different map options for the blank base map, such as Bing imagery, roads, dark or light maps"
+    },
+    "helpContentTerm7": {
+      "term": "source dataset",
+      "content": "The dataset you added to your workbench that allows for difference calculations"
+    },
+    "helpContentTerm8": {
+      "term": "preview style",
+      "content": "The way the dataset appears in the preview window. We recommend true colour to search for cloud-free images"
+    },
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    "general": {
+      "close": "Κλείσιμο",
+      "open": "Άνοιγμα",
+      "prev": "Προεπισκόπιση",
+      "next": "Επόμενο",
+      "skip": "Παράλειψη",
+      "back": "Πίσω",
+      "delete": "Διαγραφή",
+      "cancel": "Άκυρο",
+      "confirm": "Επιβεβαίωση"
+    },
+    "browsers": {
+      "chrome": "Google Chrome",
+      "firefox": "Mozilla Firefox",
+      "edge": "Microsoft Edge",
+      "safari": "Apple Safari"
+    },
+    "trainer": {
+      "expandTrainer": "Show more step detail",
+      "collapseTrainer": "Hide step detail",
+      "showAllSteps": "Show all steps",
+      "hideAllSteps": "Hide all steps"
+    },
+    "tour": {
+      "preface": {
+        "title": "Ξεκινήστε την περιήγηση",
+        "content": "Δεν είστε σίγουροι από που να ξεκινήσετε; Κάντε μια σύντομη περιήγηση στις βασικές λειτουργίες του λογισμικού, και μάθετε σχετικά με μερικές κύριες δυνατότητες που θα σας βοηθήσουν να συνεχίσετε μόνοι σας.",
+        "close": "Ίσως αργότερα",
+        "start": "Έναρξη περιήγησης"
+      },
+      "finish": "Τέλος",
+      "locationSearchInput": {
+        "content": "## Αναζήτηση τοποθεσίας\n\nΑναζητήστε μια περιοχή ή μια διεύθυνση για να βρείτε ένα σημείο ενδιαφέροντος στον χάρτη."
+      },
+      "exploreMapDataButton": {
+        "content": "## Εξερεύνηση χαρτογραφικών δεδομένων\n\nΑπό εδώ μπορείτε να περιηγηθείτε στα διαθέσιμα δεδομένα και να τα προσθέσετε στον χάρτη. Μπορείτε να προσθέσετε πολλά επίπεδα δεδομένα ταυτόχρονα."
+      },
+      "sidePanelUploadButton": {
+        "content": "## Προσθήκη δεδομένων\n\nΜπορείτε να μεταφορτώσετε τα δικά σας δεδομένα στον χάρτη για να τα προβάλετε σε συνδυασμό με τα δεδομένα του καταλόγου. Ανεβάστε ένα αρχείο ή έναν σύνδεσμο για ένα σύνολο/υπηρεσία δεδομένων που βρίσκεται στον παγκόσμιο ιστό. Οι υποστηριζόμενοι τύποι δεδομένων περιλαμβάνουν: CSV, GeoJSON, KML, GPX and CZML."
+      },
+      "menuBarMapSettingsButton": {
+        "content": "## Προτιμήσεις Χάρτη\n\nΕξατομίκευση των προτιμήσεων του χάρτη όπως το υπόβαθρο, το 2D/3D Ανάγλυφο και η ποιότητα των εικόνων του χάρτη για την βελτίωση των επιδόσεων της εφαρμογής."
+      },
+      "menuBarStoryButton": {
+        "content": "## Ιστορίες\n\nStories allow you to add contextual information to a dataset to bring a narrative to life. Create your own data story using the Story Editor, and share it via the ‘Share’ panel once you’re done."
+      },
+      "mapNavigationCompassOuterRing": {
+        "content": "## Οπτικό Πεδίο\n\nΑπό εδώ μπορείτε να αλλάξετε το οπτικό πεδίο του χάρτη. Χρησιμοποιήστε τον εξωτερικό δακτύλιο για να αλλάξετε τον προσανατολισμό και τον εσωτερικό για να αλλάξετε την κλίοση της κάμερας. Μπορείτε να επαναφέρετε τον χάρτη με διπλό κλικ."
+      },
+      "mapNavigationSplitterIcon": {
+        "content": "## Σύγκριση\n\nA powerful feature of Terria is the ability to compare datasets using a split screen view. For datasets with a time-series component, such as satellite images, you can compare dates backwards and forwards in time by clicking on the date picker/selector."
+      }
+    },
+    "measure": {
+      "measureTool": "Μέτρηση",
+      "measureToolTitle": "Γραμμική Μέτρηση",
+      "measureDistance": "Μέτρηση αποστάσεων μεταξύ σημείων"
+    },
+    "location": {
+      "errorGettingLocation": "Error getting location",
+      "browserCannotProvide": "Your browser cannot provide your location.",
+      "myLocation": "Η θέση μου",
+      "location": "Θέση",
+      "originError": "Your browser can only provide your location when using https. You may be able to use {{secureUrl}} instead.",
+      "centreMap": "Κεντράρισμα χάρτη στην θέση μου"
+    },
+    "splitterTool": {
+      "toggleSplitterToolTitle": "Σύγκριση",
+      "toggleSplitterTool": "Σύγκριση δύο διαφορετικών επιπέδων δεδομένων πλευρό-με-πλευρό ",
+      "toggleSplitterToolDisabled": "Please disable other side-by-side comparison features in order to enable standard compare",
+      "title": "Drag left or right to adjust views",
+      "workbench": {
+        "goleftTitle": "Show on the left side",
+        "goleft": "Left",
+        "bothTitle": "Show on both sides",
+        "both": "Both",
+        "gorightTitle": "Show on the right side",
+        "goright": "Right",
+        "copyName": "{{name}} (copy)"
+      }
+    },
+    "zoomCotrol": {
+      "zoomIn": "Zoom in",
+      "zoomReset": "Επαναφορά zoom",
+      "zoomOut": "Zoom out"
+    },
+    "compass": {
+      "description": "Drag outer ring: rotate view.\nDrag inner gyroscope: free orbit.\nDouble-click: reset view.\nTIP: You can also free orbit by holding the CTRL key and dragging the map.",
+      "title": "Click and drag to rotate the camera",
+      "guidanceBtnTitle": "Gyroscope Guidance",
+      "guidanceBtnText": "View detailed instructions on how to use the compass",
+      "guidance": {
+        "title": "Gyroscope Controls",
+        "outerRingTitle": "Outer Ring",
+        "outerRingDescription": "Drag the outer ring in a circular motion to rotate the map view 360˚.",
+        "innerCircleTitle": "Inner Circle",
+        "innerCircleDescription1": "Click in the centre and slowly drag up, down, left or right to tilt and rotate the map at the same time.",
+        "innerCircleDescription2": "Double click in here to reset view to its default state.",
+        "ctrlDragDescription": "You can also tilt and rotate the map by holding the CTRL key and dragging the map.",
+        "dismissText": "Close and don't show again"
+      }
+    },
+    "AR": {
+      "title": "Experimental Feature: Augmented Reality",
+      "experimentalFeatureMessage": "Augmented Reality mode is currently in beta. This mode is only designed for use on the latest high end mobile devices. <br /><br />WARNING: This mode can consume a lot of data, please be mindful of data usage charges from your network provider. <br /><br />The accuracy of this mode depends on the accuracy of your mobile devices internal compass.",
+      "confirmText": "Got it",
+      "manualAlignmentTitle": "Manual Alignment",
+      "manualAlignmentMessage": "Align your mobile device so that it corresponds with the maps current alignment, then click the blinking compass. If no landmarks to align with are currently visible on the map, you can move the map using drag and pinch actions until a recognisable landmark is visible before aligning the device with the map. <br /><div>{{img}}</div> <br />Tip: The sun or moon are often good landmarks to align with if you are in a location you aren't familiar with (be careful not to look at the sun - it can hurt your eyes).",
+      "resetAlignmentTitle": "Reset Alignment",
+      "resetAlignmentMessage": "Resetting to compass alignment. If the alignment doesn't match the real world try waving your device in a figure 8 motion to recalibrate device. This can be done at any time.<br /> <br />Avoid locations with magnetic fields or metal objects as these may disorient the devices compass.",
+      "arTool": "augmented reality tool",
+      "btnHover": "toggle hover height",
+      "btnRealign": "toggle manual alignment",
+      "btnResetRealign": "reset compass alignment"
+    },
+    "tool": {
+      "closeButtonTitle": "Close {{toolName}} Tool",
+      "loadingError": {
+        "title": "Error Loading {{toolName}} Tool",
+        "message": "An error occurred while trying to load the this tool from the server. Please try again."
+      },
+      "exitBtnTitle": "Exit",
+      "button": {
+        "open": "Exit {{toolNameLowerCase}}",
+        "closed": "{{toolName}}"
+      }
+    },
+    "diffTool": {
+      "title": "Difference",
+      "exit": "Exit",
+      "instructions": {
+        "setDateA": "Set date A",
+        "setDateB": "Set date B",
+        "changeDates": "Change dates",
+        "paneDescription": "Visualise and compare the difference of data between two dates at one location."
+      },
+      "choosePreview": "Choose a preview style",
+      "chooseDifference": "Choose a difference output",
+      "differenceResultsTitle": "Change detection results",
+      "labels": {
+        "area": "Area",
+        "dates": "Dates",
+        "dateComparisonA": "Date Comparison A",
+        "dateComparisonB": "Date Comparison B",
+        "sourceDataset": "Source dataset",
+        "previewStyle": "Preview style",
+        "differenceOutput": "Difference output",
+        "generateDiffButtonText": "Generate change detection",
+        "disabledButtonPrompt": "Please note: A location and dates must be selected to proceed with change detection",
+        "areaFilterSelection": "Area filter selection"
+      },
+      "locationDisplay": {
+        "noLocationSelected": {
+          "title": "No location selected",
+          "description": "To filter image date picker by location, please select a point on the map"
+        },
+        "locationSelected": {
+          "title": "Location selected & dates filtered",
+          "description": "To change, click another point on the map"
+        }
+      },
+      "locationPicker": {
+        "initialMessages": {
+          "title": "Select a precise location",
+          "beforePick": "We need this to run our change detection process.",
+          "afterPick": "Click another point to change the selected region"
+        },
+        "nextMessages": {
+          "title": "You have selected the location {{latitude}} {{longitude}}",
+          "beforePick": "Click another point to change the selection",
+          "afterPick": "Click another point to change the selection"
+        },
+        "errorMessages": {
+          "title": "Select a precise location",
+          "beforePick": "Failed to resolve imagery at location! Please choose a different location or zoom-level.",
+          "afterPick": "Click another point to change the selection"
+        }
+      },
+      "datePicker": {
+        "back": "Go back",
+        "previousDateTitle": "Previous date",
+        "nextDateTitle": "Next date",
+        "dateButtonTitle": "Select a date"
+      }
+    },
+    "legend": {
+      "lat": "Lat",
+      "lon": "Lon",
+      "zone": "ZONE",
+      "e": "E",
+      "n": "N",
+      "elev": "Υψομ"
+    },
+    "languagePanel": {
+      "changeLanguage": "Εναλλαγή γλώσσας"
+    },
+    "share": {
+      "browserPrint": "Για καλύτερα αποτελέσματα κατά την εκτύπωση, χρησιμοποιήστε το κουμπί Εκτύπωση του {{appName}} αντί της λειτουργίας εκτύπωσης του περιηγητή σας.",
+      "shortLinkShortening": "Γίνεται σμίκρυνση...",
+      "shortLinkError": "Προέκυψε ένα σφάλμα κατά την σμίκρυνση του URL.  Παρακαλούμε ελέγξτε την σύνδεση σας και προσπαθήστε ξανά.",
+      "localDataNote": "<0><0>Σημείωση:</0></0><1>Οι παρακάτω πηγές ΔΕΝ θα κοινοποιηθούν καθώς περιέχουν δεδομένα από το τοπικόι σας σύστημα. Για να κοινοποιήσετε αυτά τα δεδομένα δημοσιεύστε τα σε έναν διαδικτυακό εξυπηρετητή <2>και προσθέστε τα χρησιμοποιώντας ένα url</2>.</1>",
+      "generatingUrl": "Δημιουργία URL Κοινοποίησης...",
+      "printTitle": "Εκτύπωση Χάρτη",
+      "printExplanation": "Άνοιγμα μιας έκδοσης του χάρτη για εκτύπωση",
+      "downloadMap": "Μεταφόρτωση χάρτη (png)",
+      "printViewButton": "Προβολή Εκτύπωσης",
+      "btnAdvanced": "Ενωμάτωση του χάρτη σε μια ιστοσελίδα",
+      "advancedExplanation":"ddd",
+      "shortenUsingService": "Σμίκρυνση του url κοινοποίησης με μια ηλεκτρονική υπηρεσία",
+      "btnCatalogShareText": "Κοινοποίηση",
+      "btnStoryShareText": "Κοινοποίηση",
+      "btnMapShareText": "Κοινοποίηση / Εκτύπωση",
+      "btnCatalogShareTitle": "Μοιραστείτε τον κατάλογο με άλλους",
+      "btnStoryShareTitle": "Μοιραστείτε την ιστορία σας με άλλους",
+      "btnMapShareTitle": "Μοιραστείτε τον χάρτη σας με άλλους",
+      "convertNotificationTitle": "Ειδοποίηση: ο σύνδεσμος κοινοποίησης ενημερώθηκε",
+      "convertNotificationMessage": "Ο σύνδεσμος δημιουργήθηκε από μια παλαιότερη έκδοση του TerriaJS - του λογισμικού στο οποίο βασίζεται αυτός ο χάρτης. Παρότι καταβάλονται οι μέγιστες προσπάθειες για να διατηρηθεί η λειτουργία του συνδέσμου, ενδέχεται να αντιμετωπίσετε προβλήματα με την θέαση των δεςδομένων  \n\nIf you're a user of the share link, click OK to make the warning message disappear and continue with accessing the data.",
+      "convertNotificationHelp": "Αν έχετε δημιουργήσει τον σύνδεσμο κοινοποίησης, αναφερθείτε το μενού Βοήθεια για να το τροποποιήσετε",
+      "convertNotificationFeedback": "Για ερωτήσεις ή σχόλια, κάντε κλικ εδώ.",
+      "convertNotificationWarningsTitle": "Τεχνικές λεπτομέρειες",
+      "convertErrorTitle": "Απέτυχε η αναβάθμιση του συνδέσμου στην έκδοση V8",
+      "convertErrorMessage": "Ο σύνδεσμος δημιουργήθηκε από μια παλαιότερη έκδοση του TerriaJS - του λογισμικού στο οποίο βασίζεται αυτός ο χάρτης. An error has occurred trying to upgrade the share data."
+    },
+    "countDatasets": {
+      "btnText": "Έναρξη",
+      "loadError": "η φόρτωση απέτυχε.",
+      "countingMessage": "Γίνεται καταμέτρηση, παρακαλώ περιμένετε...",
+      "totals": "<div>Ο κατάλογος περιέχει {{items}} αντικείμενα σε {{groups}} ομάδες.</div>",
+      "subTotals": "<div> {{name}}: {{items}} αντικείμενα / {{groups}} ομάδα</div>",
+      "recount": "Καταμέτρηση ξανά",
+      "title": "Αριθμός Συνόλων Δεδομένων",
+      "btnCount": "Καταμέτρηση Συνόλων Δεδομένων",
+      "noMapDataEnabled": "Δεν έχουν ενεργοποιηθεί δεδομένα χάρτη",
+      "mapDataState": "{{count}} ενεργά σύνολα δεδομένων χάρτη",
+      "mapDataState_plural": "{{count}} ενεργά σύνολα δεδομένων χάρτη"
+    },
+    "toolsPanel": {
+      "btnText": "Εργαλεία",
+      "btnTitle": "Προχωρημένη εργαλειοθήκη"
+    },
+    "settingPanel": {
+      "viewerModeLabels": {
+        "CesiumTerrain": "3D Ανάγλυφο",
+        "CesiumEllipsoid": "3D Ομαλό",
+        "Leaflet": "2D"
+      },
+      "qualityLabels": {
+        "maximumPerformance": "Μέγιστες επιδόσεις, χαμηλή ποιότητα",
+        "balancedPerformance": "Ισορροπημένη, επιδόσεις & ποιότητα",
+        "lowerPerformance": "Μέγιστη ποιότητα, χαμηλές επιδόσεις"
+      },
+      "nativeResolutionLabel": "Press to stop using {{resolution1}} resolution and start using {{resolution2}} resolution",
+      "native": "native",
+      "screen": "screen",
+      "btnTitle": "Αλλαγή view",
+      "btnText": "Προτιμήσεις Χάρτη",
+      "mapView": "Χαρτογραφική Πύλη",
+      "baseMap": "Υπόβαθρο Χάρτη",
+      "imageOptimisation": "Βελτιστοποίηση Εικόνας",
+      "nativeResolutionHeader": "Χρήση της Ανάλυσης της Συσκευής μου",
+      "mapQuality": "Ποιότητα Μωσαϊκού Υποβάθρου:",
+      "qualityLabel": "Ποιότητα",
+      "performanceLabel": "Επιδόσεις",
+      "timeline": {
+        "title": "Χρονική κλίμακα",
+        "alwaysShowLabel": "Press to start only showing the timeline when there are time-varying datasets on the workbench",
+        "hideLabel": "Press to start always showing the timeline, even when no time-varying datasets are on the workbench",
+        "alwaysShow": "Πάντα ορατή"
+      },
+      "terrain": {
+        "hideUnderground": "Απόκρυψη υπόγειων στοιχείων από το ανάγλυφο",
+        "showUndergroundFeatures": "Press to start showing features that are underneath the terrain surface",
+        "hideUndergroundFeatures": "Press to start hiding features that are underneath the terrain surface",
+        "sideLabel": "Προβολή Αναγλύφου στα",
+        "left": "Αριστερά",
+        "both": "Παντού",
+        "right": "Δεξιά"
+      }
+    },
+    "feedback": {
+      "feedbackPreamble": "Θέλουμε τη γνώμη σας!",
+      "title": "Feedback",
+      "close": "κλέισιμο",
+      "yourName": "Το όνομα σας (προαιρετικό)",
+      "email": "Διεύθυνση email (προαιρετικό)<br/><em>Χωρίς αυτό δεν μπορούμε να σας απαντήσουμε!</em>",
+      "commentQuestion": "Σχόλιο ή ερώτηση",
+      "shareWithDevelopers": "Κοινοποίηση του χάρτη μου ως συννημένο με τους προγραμματιστές του {{appName}}",
+      "cancel": "Άκυρο",
+      "sending": "Γίνεται αποστολή...",
+      "send": "Αποστολή",
+      "feedbackBtnText": "Give Feedback",
+      "minLength": "Το ελάχιστο μέγεθος για σχόλια είναι {{minLength}}"
+    },
+    "helpPanel": {
+      "btnText": "Βοήθεια",
+      "menuPaneTitle": "Είμαστε εδώ για να σας βοηθήσουμε",
+      "menuPaneBody": "Βρείτε χρήσιμες συμβουλές για την χρήση του TerriaJS - του λογιασμικού στο οποίο βασίζεται αυτός ο χάρτης - χρησιμοποιώντας τους οδηγούς παρακάτω, ή επικοινωνώντας με τους προγραμματιστές [{{supportEmail}}]({{supportEmail}})",
+      "promptMessage": "Βρείτε την Περιήγηση, how-to videos και άλλα βοηθητικά θέματα εδώ",
+      "dismissText": "Το κατάλαβα!",
+      "takeTour": "Ξεκινήστε την Περιήγηση",
+      "mapUserGuide": "Οδηγός χρήσης χάρτη"
+    },
+    "helpMenu": {
+      "btnText": "Βοήθεια",
+      "btnTitle": "λάβετε βοήθεια",
+      "helpMenuHeader": "Τι θέλετε να κάνετε?",
+      "helpMenuOpenWelcome": "Show welcome message",
+      "helpMenuSatelliteGuideTitle": "View satellite imagery guide",
+      "helpMenuMoreHelpTitle": "Περισσότερη Βοήθεια",
+      "done": "ΤΕΛΟΣ",
+      "next": "ΕΠΟΜΕΝΟ"
+    },
+    "sui": {
+      "notifications": {
+        "title": "This map contains a story",
+        "message": "Would you like to view it now?",
+        "confirmText": "Yes",
+        "denyText": "Maybe later"
+      },
+      "showWorkbench": "Προβολή Πάγκου",
+      "hideWorkbench": "Απόκρυψη Πάγκου"
+    },
+    "featureInfo": {
+      "catalogItem": {
+        "moreThanMax": "Βρέθηκαν περισσότερα από {{maximum}} στοιχεία στο {{catalogItemName}} .",
+        "featuresFound": "Βρέθηκαν {{featCount}} στοιχεία στο {catalogItemName} ",
+        "featureInfoShown": "Τα πρώτα {{maximum}} αποτελέσματα φαίνονται παρακάτω."
+      },
+      "download": "Μεταφόρτωση αυτού του Πίνακα",
+      "pickLocation": "Στόχευση τοποθεσίας",
+      "clickMap": "Κάντε κλικ στο χάρτη για να δείτε λεπτομέρεις για μια τοποθεσία",
+      "noDataAvailable": "Δεν υπάρχουν δεδομένα εδώ - δοκιμάστε αλλού.",
+      "clickToAddData": "Κάντε κλικ στο '$t(addData.addDataBtnText)' για να προσθέσετε δεδομένα στον χάρτη",
+      "userSelection": "Τοποθεσία Χρήστη",
+      "panelHeading": "Πληροφορίες Στοιχείου",
+      "btnCloseFeature": "Κλείσιμο παραθύρου δεδομένων",
+      "satelliteSuggestionBtn": "Πορβολή του {{catalogItemName}} σε αυτήν την τοποθεσία",
+      "locationMarker": "Πινέζα",
+      "noInfoAvailable": "Δεν υπάρχουν διαθέσιμες πληροφορίες",
+      "siteData": "Site Data",
+      "latLon": "Lat / Lon ",
+      "showRawData": "Προβολή Αρχικών Δεδομένων",
+      "showCuratedData": "Προβολή Οργανωμένων Δεδομένων"
+    },
+    "welcomeMessage": {
+      "title": "Ας ξεκινήσουμε",
+      "welcomeMessage": "Interested in data discovery and exploration?<br/>Dive right in and get started or check the following help guide options.",
+      "welcomeMessageOnMobile": "Interested in data discovery and exploration?",
+      "tourBtnText": "Take the tour",
+      "helpBtnText": "I'll need some help",
+      "exploreDataBtnText": "Explore map data",
+      "searchBtnText": "Search for a location",
+      "dismissText": "Close message and don't show me this again"
+    },
+    "story": {
+      "panelTitle": "Story editor",
+      "panelBody": "Create and share interactive stories directly from your map",
+      "gettingStarted": "Getting started",
+      "gettingStartedTitle": "Getting started",
+      "badgeBarLabel": "Scenes",
+      "share": "Share",
+      "viewStory": "view",
+      "view": "View",
+      "editStory": "edit",
+      "edit": "Edit",
+      "expand": "Expand",
+      "collapse": "Collapse",
+      "recaptureStory": "re-capture",
+      "recapture": "Recapture",
+      "deleteStory": "delete",
+      "delete": "Delete",
+      "untitledScene": "untitled scene",
+      "doesNotExist": "Story does not exist",
+      "removeAllStories": "Remove All",
+      "removeAllStoriesDialog": "Are you sure you wish to delete {{ count }} scene?",
+      "removeAllStoriesDialog_plural": "Are you sure you wish to delete {{ count }} scenes?",
+      "removeStoryDialog": "Are you sure you wish to delete '<1>{{storyName}}</1>'?",
+      "preview": "preview stories",
+      "play": "Play",
+      "playStory": "Story",
+      "captureSceneTitle": "capture current scene",
+      "captureScene": "Capture Scene",
+      "editor": {
+        "placeholder": "Enter a title here",
+        "cancelBtn": "cancel",
+        "cancelEditing": "Cancel",
+        "saveBtn": "save",
+        "saveStory": "Save"
+      },
+      "locationBtn": "center scene",
+      "exitBtn": "exit story",
+      "previousBtn": "go to previous scene",
+      "prev": "Prev",
+      "untitled": "untitled scene",
+      "navBtn": "go to story {{title}}",
+      "nextBtn": "go to next scene",
+      "next": "Next",
+      "restart": "Restart",
+      "navBtnMobile": "go to story {{title}}",
+      "promptHtml1": "<0>You can view and create stories at any time by clicking here.</0>",
+      "promptHtml2": "<0><0>INTRODUCING</0><1>Data Stories</1><2>Create and share interactive stories directly from your map.</2></0>",
+      "story": "Story",
+      "dismissText": "Got it, thanks!",
+      "mobileViewStory": "View Stories {{storiesLength}}",
+      "storyEditor": "Story Editor",
+      "hideStoryPanel": "hide story builder",
+      "loadSceneErrorTitle": "Error loading Story Scene",
+      "loadSceneErrorMessage": "An error occurred while loading data for story scene: `{{title}}`."
+    },
+    "satelliteGuidance": {
+      "menuTitle": "You can access map guides at any time by looking in the <2>help menu</2>.",
+      "dismissText": "Got it, thanks!",
+      "titleI": "Satellite Imagery: How do I…?",
+      "bodyI": "A super-quick guide to getting the most out of historical satellite imagery.",
+      "prevI": "No thanks",
+      "nextI": "View guide",
+      "titleII": "Where is my satellite imagery?",
+      "bodyII": "You may need to adjust your zoom level to make satellite imagery visible on the map.",
+      "titleIII": "Loading historical imagery",
+      "bodyIII": "In your data workbench, click on the capture date dropdown and select from available times to load historical imagery.",
+      "titleIV": "Filtering imagery by location",
+      "bodyIV": "Satellite imagery may not always be available at your preferred time and location. If you only want to view imagery for a particular location, click ‘filter by location’ in your data workbench.",
+      "titleV": "How do I view false-colour imagery?",
+      "bodyV": "You can apply a range of styles, such as false-colour, to satellite imagery by clicking on the styles dropdown in your data workbench."
+    },
+    "addData": {
+      "addDataBtnText": "Διαθέσιμα Δεδομένα",
+      "btnHide": "Hide",
+      "load": "Φόρτωση τοπικών/διαδικτυακών δεδομένων",
+      "closeDataPanel": "Κλείσιμο του παραθύρου δεδομένων",
+      "done": "Τέλος",
+      "myData": "Δεδομένα Χρήστη",
+      "dataCatalogue": "Κατάλογος",
+      "searchPlaceholderWhole": "Αναζήτηση σε όλο τον κατάλογο",
+      "searchPlaceholder": "Αναζήτηση στον κατάλογο",
+      "localAdd": "Προσθήκη από τον υπολογιστή ",
+      "localFileType": "<0>Βήμα 1:</0> Επιλέξτε τύπο αρχείου (προαιρετικό)",
+      "localFile": "<0>Βήμα 2:</0> Επιλέξτε αρχείο",
+      "webAdd": "Προσθήκη από το διαδίκτυο",
+      "webFileType": "<0>Βήμα 1:</0> Επιλέξτε τύπο αρχείου (προαιρετικό)",
+      "webFile": "<0>Βήμα 2:</0> Εισάγετε το URL της υπηρεσίας ή του αρχείου",
+      "urlInputBtn": "Προσθήκη",
+      "browse": "Περιήγηση...",
+      "localTitle": "Προσθήκη από τον υπολογιστή μου",
+      "webTitle": "Προσθήκη από το διαδίκτυο",
+      "dragDrop": "Σύρετε Εδώ",
+      "infoText": "<0>Σύρετε ένα αρχείο εδώ για να το προβάλετε τοπικά στον χάρτη</0><1>(δεν θα μεταφορτωθεί στο διαδίκτυο)</1>",
+      "back": "Πίσω",
+      "note": "<0>Σημείωση: </0>Τα δεδομένα που προστίθενται από εδώ δεν αποθηκεύονται και δεν είναι ορατά σε άλλους."
+    },
+    "search": {
+      "resultsLabel": "Αποτελέσματα Αναζήτησης",
+      "done": "Τέλος",
+      "data": "Δεδομένα",
+      "searchInDataCatalog": "Αναζήτηση για <1>'{{locationSearchText}}'</1> στον Κατάλογο Δεδομένων",
+      "search": "Αναζήτηση για '{{searchText}}' στον Κατάλογο Δεδομένων",
+      "viewLess": "Λιγότερα αποτελέσματα για {{name}}",
+      "viewMore": "Λιγότερα αποτελέσματα για {{name}}",
+      "placeholder": "Αναζήτηση τοποθεσίας",
+      "searchCatalogue": "Αναζήτηση στον Κατάλογο"
+    },
+    "mobile": {
+      "toggleNavigation": "toggle navigation",
+      "addDataBtnText": "Δεδομένα",
+      "doneBtnText": "Τέλος"
+    },
+    "preview": {
+      "doesNotContainGeospatialData": "Το αρχείο δεν περιέχει γεωχωρικά δεδομένα",
+      "selectToPreview": "<0>Επιλέξτε ένα σύνολο δεδομένων για να δείτε την προεπισκόπηση </0><1>- OR -</1><2>Μετάβαση στον χάρτη</2>",
+      "loading": "ΦΟΡΤΩΣΗ ΠΡΟΕΠΙΣΚΟΠΗΣΗΣ...",
+      "preview": "Προεπισκόπηση {{appName}}",
+      "previewItemErrorTitle": "Η προεπισκόπηση του αντικειμλενου δνε είναι δυνατή.",
+      "previewItemErrorMessage": "Προέκυψε ένα σφάλμα κατά την φόρτωση του αντικειμένου.",
+      "noPreviewAvailable": "ΜΗ ΔΙΑΘΕΣΙΜΗ ΠΡΟΕΠΙΣΚΟΠΗΣΗ",
+      "dataPreviewLoading": "ΦΟΡΤΩΣΗ ΠΡΟΕΠΙΣΚΟΠΗΣΗ...",
+      "dataPreview": "ΠΡΟΕΠΙΣΚΟΠΗΣΗ ΔΕΔΟΜΕΝΩΝ",
+      "dataPreviewError": "ΣΦΑΛΜΑ ΠΡΟΕΠΙΣΚΟΠΗΣΗ ΔΕΔΟΜΕΝΩΝ",
+      "removeFromMap": "Αφαίρεση από τον χάρτη",
+      "addToMap": "Προσθήκη στον χάρτη",
+      "disclaimer": "Αποποίηση",
+      "dataDescription": "Περιγραφή Δεδομένων",
+      "datasetDescription": "Περιγραφή Συνόλου Δεδομένων",
+      "serviceDescription": "Περιγραφή Υπηρεσίας",
+      "resourceDescription": "Περιγραφή Πόρου",
+      "licence": "Licence",
+      "accessConstraints": "Περιορισμοί Πρόσβασης",
+      "fees": "Χρεώσεις",
+      "author": "Συντάκτης",
+      "contact": "Επικοινωνία",
+      "created": "Δημιουργήθηκε",
+      "modified": "Τροποιήθηκε",
+      "updateFrequency": "Συχνότητα Ενημέρωσης",
+      "dataCustodian": "Υπεύθυνος Δεδομένων",
+      "mayBeExperiencingIssues": "Το σύνολο δεδομένων ενδέχεται να αντιμετωπίζει προβλήματα αυτή τη στιγμή"
+    },
+    "description": {
+      "name": "Περιγραφή",
+      "dataLocal": "Αυτό το αρχείο υπάρχει μόνο στον περιηγητή σας. Για να το κοινοποιήσετε, πρέπει να το φορτώσετε σε έναν εξυπηρετητή ιστού",
+      "dataNotLocal": "Παρακαλούμε επικοινωνήστε με τον πάροχο των δεδομένων για περισσότερες πληροφορίες, συμπεριλαμβανομένων των δικαιωμάτων & περιορισμών χρήσης",
+      "wms": "Αυτή είναι μια <1>Υπηρεσία WMS</1>, η οποία παράγει εικονίδια χάρτη κατόπιν αιτημάτων. Μπορεί να χρησιμοποιηθεί σε λογισμικά GIS με τον σύνδεσμο:",
+      "wfs": "Αυτή είναι μια <1>Υπηρεσία WFS</1>, η οποία μεταφορτώνει πρωτογενή χωρικά δεδομένα κατόπιν αιτήματος. Μπορεί να χρησιμοποιηθεί σε οποιοδήποτε λογισμικά GIS με τον σύνδεσμο:",
+      "layerName": "Όνομα Επιπέδου",
+      "typeName": "Όνομα τύπου",
+      "metadataUrls": "Σύνδεσμοι Μεταδεδομένων",
+      "dataUrl": "Σύνδεσμοι Δεδομένων",
+      "useLinkBelow": "Χρησιμοποιείστε τον παρακάτω σύνδεσμο για να μεταφορτώσετε τα δεδομένα. Δείτε τον σύνδεσμο {{link}} σχετικά με την τροποποίηση των παραμέτρων ερωτήματος ενός url.",
+      "downloadInFormat": "Μεταφόρτωση των επιλεγμένων δεδομένων σε μορφή {{format}}",
+      "downloadNotSupported": "Δυστυχώς ο περιηγητής σας δεν υποστηρίζει την μεταφόρτωση αυτών των δεδομένων ως αρχείο. Παρακαλούμε χρησιμοποιείστε ένα εκ των $t(browsers.chrome), $t(browsers.firefox), $t(browsers.edge) ή $t(browsers.safari) για να μεταφορτώσετε αυτά τα δεδομένα.",
+      "useTheLinkToDownload": "Χρησιμοποιείστε το παρακάτω σύνδεσμο για να μεταφορτώσετε τα δεδομένα άμεσα.",
+      "downloadData": "Μεταφόρτωση Δεδομένων",
+      "dataSourceDetails": "Πληροφορίες Πηγής Δεδομένων",
+      "dataServiceDetails": "Πληροφορίες Υπηρεσίας Δεδομένων",
+      "dataCustodian": "Υπεύθυνος Δεδομένων"
+    },
+    "workbench": {
+      "colorScaleRangeTitle": "Μη-έγκυρο εύρος χρωματικής κλίμακας",
+      "colorScaleRangeMin": "Η ελάχιστη τιμή πρέπει να είναι αριθμός.",
+      "colorScaleRangeMax": "Η ελάχιστη τιμή πρέπει να είναι αριθμός.",
+      "colorScaleRangeMinSmallerThanMax": "Η ελάχιστη τιμή του χρωματικού εύρους πρέπει να είναι μικρότερη της μέγιστης.",
+      "colorScaleRange": "Εύρος Χρωματικής Κλίμακας",
+      "rangeMax": "Μέγιστο:",
+      "rangeMin": "Ελάχιστο:",
+      "colorScaleUpdateRange": "Ενημέρωση Εύρους",
+      "displayPercent": "Προβολή ως ποσοστό του τοπικού συνόλου",
+      "opacity": "Αδιαφάνεια: {{opacity}} %",
+      "zoomToTitle": "Εστίαση στα όρια",
+      "zoomTo": "Ιδανική Εστίαση",
+      "openFeatureTitle": "Zoom στα δεδομένα",
+      "openFeature": "Εστίαση σε",
+      "previewItemTitle": "Σχετικά με τα δεδομένα",
+      "showMoreActionsTitle": "Περισσότερες επιλογές",
+      "previewItem": "Πληροφορίες",
+      "splitItemTitle": "Δημιουργία αντιγράφου και διαχωρισμός οθόνης",
+      "splitItem": "Σύγκριση",
+      "diffImageTitle": "Προβολή διαφοράς εικόνων ανάμεσα σε δύο ημερομηνίες",
+      "diffImage": "Διαφορά",
+      "exportDataTitle": "Εξαγωγή δεδομένων χάρτη",
+      "exportData": "Εξαγωγή",
+      "removeFromMapTitle": "Αφαίρεση αυτού του συνόλου",
+      "removeFromMap": "Αφαίρεση",
+      "label": "Δεδομενα",
+      "removeAll": "Αφαίρεση όλων",
+      "collapseAll": "Σύμπτυξη όλων",
+      "expandAll": "Ανάπτυξη όλων",
+      "toggleVisibility": "Data show/hide",
+      "addItemErrorTitle": "Catalog item could not be added to workbench.",
+      "addItemErrorMessage": "Προέκυψε σφάλμα κατά την φόρτωση του αντικειμένου καταλόγου.",
+      "dimensionsSelector": {
+        "undefinedLabel": "Not specified"
+      },
+      "searchItem": "Αναζήτηση",
+      "searchItemTitle": "Αναζήτηση",
+      "splitScreenMode": "ΛΕΙΤΟΥΡΓΙΑ ΔΙΑΧΩΡΙΣΜΟΥ ΟΘΟΝΗΣ"
+    },
+    "dateTime": {
+      "selectorLabel": "Χρόνος:",
+      "back": "Μετάβαση Πίσω",
+      "previous": "Προηγούμενος Χρόνος",
+      "selectTime": "Επιλογή χρόνου",
+      "outOfRange": "Εκτός του παρόντος εύρους.",
+      "next": "Επόμενος χρόνος",
+      "useTimeline": "Χρήση της Χρονικής Κλίμακας",
+      "availableTimeChart": "Εμφάνιση διαθέσιμων χρονολογιών σε διάγραμμα",
+      "timeline": {
+        "textCell": "Όνομα συνόλου δεδομένων του οποίου το χρονικό εύρος εμφανίζεται",
+        "gotoStart": "Μετάβαση στην Αρχή",
+        "togglePlay": "Play",
+        "playSlower": "Επιβράδυση",
+        "playFaster": "Επιτάχυνση"
+      }
+    },
+    "satellite": {
+      "pickPoint": "Επιλογή ενός σημείου με κλικμ στον χάρτη.",
+      "querying": "Αναζήτηση για την θέση...",
+      "filterByLocation": "Φιλτράρισμα κατά τοποθεσία",
+      "infoGroup": "Only showing available capture times for:",
+      "removeFilter": "Αφαίρεση φίλτρου",
+      "zoomTo": "Εστίαση σε",
+      "newLocation": "Νέα τοποθεσία"
+    },
+    "timer": {
+      "nextScheduledUpdateTime": "Επόμενη ενημέρωση δεδομένων {{scheduledUpdateTime}}",
+      "nextScheduledUpdateCountdown": "Επόμενη ενημέρωση δεδομένων σε {{timeCountdown}}"
+    },
+    "concept": {
+      "active": {
+        "edit": "Επεξεργασία συνθήκης",
+        "remove": "Αφαίρεση συνθήκης"
+      },
+      "inactive": {
+        "cancel": "Άκυρο",
+        "newText": "Νέα συνθήκη"
+      },
+      "summary": {
+        "addMoreText": "Προσθήκη συνθήκης",
+        "addFirstText": "Προσθήκη νέας συνθήκης"
+      }
+    },
+    "clipboard": {
+      "success": "Αντιγράφηκε",
+      "unsuccessful": "Αποτυχία αντιγραφής...",
+      "shareURL": "Κοινοποίηση URL",
+      "shareExplanation": "Οποιοσδήποτε με το URL έχει πρόσβαση σε αυτόν τον χάρτη.",
+      "copy": "Αντιγραφή"
+    },
+    "includeStory": {
+      "message": "Να συμπεριληφθεί η ιστορία στην κοινοποίηση?"
+    },
+    "dragDrop": {
+      "text": "<0>Σύρρετε</0><1>τα δεδομένα σας οπουδήποτε για θέαση στον χάρτη<1>",
+      "not": "<0>bbbb</0>"
+    },
+    "loader": {
+      "loadingMessage": "Φόρτωση..."
+    },
+    "emptyWorkbenchMessage": "<0><0>Ο Πάγκος σας είναι άδειος</0><1><strong>Κάντε κλικ στο '$t(addData.addDataBtnText)' παραπάνω για να  </strong></1><2><0>Περιηγηθείτε στον Κατάλογο Δεδομένων</0><1>Φορτώστε δικά σας δεδομένα στον χάρτη</1></2><3><0></0><strong>TIP.</strong><2>όλα τα σύνολα δεδομένων που έχετε ενεργοποιήσει θα φαίνονται εδώ</2></3></0>",
+    "emptyWorkbench": {
+      "emptyArea": "Ο Πάγκος σας είναι άδειος",
+      "helpfulHints": "Υποδείξεις",
+      "helpfulHintsOne": "Περιηγηθείτε στα διαθέσιμα δεδομένα επιλέγοντας ‘Διαθέσιμα Δεδομένα’ ή 'Προσθήκη', για να προσθέσετε δικά σας δεδομένα στον χάρτη ",
+      "helpfulHintsTwo": "Πολλές πηγές μπορεί να εμφανίζονται ελλιπείς χωρικά, ή να αναφέρουν σφάλματα σύνδεσης. Αυτό εφαρτάται από τους διαχειριστές των υπηρεσιών που διανέμουν τα δεδομένα. Το OpenGreekGeodata απλά τα συγκεντρώνει σε μια σελίδα!",
+      "helpfulHintsThree": "Μπορείτε να αντιγράψετε το URL οποιουδήποτε σετ δεδομένων από τον κατάλογο, και να το προσθέσετε στο QGIS (ή σε οποιονδήποτε άλλο πελάτη γεωχωρικών δεδομένων). Σκοπός αυτής της σελίδας είναι να αναφέρει συγκεντρωτικά διάφορες πηγές δεδομένων με τελικό στόχο ο χρήστης να συνδέσει αυτά τα δεδομένα με το λογισμικό που χρησιμοποιεί για να τα χρησιμοποιήσει στις αναλύσεις του. ΣΗΜΕΙΩΣΗ: Πολλά από τα δεδομένα που φαίνεται να μη λειτουργούν στον κατάλογο, ενδέχεται να φορτώνουν κανονικά στο QGIS! "
+    },
+    "dataCatalog": {
+      "groupRemove": "αφαίρεση αυτής της ομάδας",
+      "groupEmpty": "Η ομάδα είναι άδεια"
+    },
+    "catalogItem": {
+      "privateIndicatorTitle": "Private Dataset",
+      "loading": "Φόρτωση...",
+      "remove": "Αφαίρεση",
+      "add": "Προσθήκη",
+      "trash": "Αφαίρεση από τον κατάλογο",
+      "removeFromMap": "Αφαίρεση από τον χάρτη",
+      "preview": "Προεπισκόπηση"
+    },
+    "chart": {
+      "sectionLabel": "Διαγράμματα",
+      "closePanel": "Κλείσιμο Παραθύρου",
+      "expand": "Μεγιστοποίηση",
+      "download": "Μεταφόρτωση",
+      "showItemInChart": "Εμφάνιση {{value}} σε διάγραμμα",
+      "loading": "Φόρτωση δεδομένων διαγράμματος...",
+      "noData": "Δεν βρέθηκαν δεδομένα κατάλληλα για προβολή σε διάγραμμα."
+    },
+    "viewModels": {
+      "searchNoLocations": "Sorry, no locations match your search query.",
+      "searchErrorOccurred": "An error occurred while searching.  Please check your internet connection or try again later.",
+      "searchAddresses": "Addresses",
+      "searchPlaceNames": "Official Place Names",
+      "searchNoPlaceNames": "Sorry, no official place names match your search query.",
+      "searchLocations": "Locations",
+      "searchCatalogueItem": "Catalogue Items",
+      "searchNoCatalogueItem": "Sorry, no catalogue items match your search query.",
+      "inMultipleLocations": "In multiple locations including: ",
+      "inDataCatalogue": "In Data Catalogue"
+    },
+    "terriaViewer": {
+      "slowWebGLAvailableTitle": "Poor WebGL performance",
+      "slowWebGLAvailableMessage": "Your web browser reports that it has performance issues displaying {{appName}} in 3D, so you will see a limited, 2D-only experience. For the full 3D experience, please try using a different web browser, upgrading your video drivers, or upgrading your operating system.",
+      "slowWebGLAvailableMessageII": "{{appName}}  works best with a web browser that supports {{webGL}} including the latest versions of $t(browsers.chrome), $t(browsers.firefox), $t(browsers.edge), and $t(browsers.safari). Your web browser does not appear to support WebGL, so you will see a limited, 2D-only experience.",
+      "webGLNotSupportedTitle": "WebGL not supported",
+      "webGLNotSupportedOrSlowTitle": "WebGL not supported or too slow",
+      "webGLNotSupportedOrSlowMessage": "Your web browser cannot display the map in 3D, either because it does not support WebGL or because your web browser has reported that WebGL will be extremely slow. Please try a different web browser, such as the latest version of $t(browsers.chrome), $t(browsers.firefox), $t(browsers.edge), or $t(browsers.safari). In some cases, you may need to upgrade your computer's video driver or operating system in order to get the 3D view in {{appName}}."
+    },
+    "analytics": {
+      "selectLocation": "Select Location",
+      "point": "Point (lat/lon)",
+      "polygon": "Polygon",
+      "existingPolygon": "Existing Polygon",
+      "nothingSelected": "Nothing has been selected, please use the buttons above to make a selection.",
+      "runAnalysis": "Run Analysis",
+      "clickToDrawLine": "Click to draw line",
+      "enterValidCoords": "Please enter valid coordinates (e.g. 131.0361, -25.3450).",
+      "selectPoint": "Select a point by clicking on the map.",
+      "clickToDrawPolygon": "Click to draw polygon",
+      "shiftToDrawRectangle": "Press the SHIFT key and hold down the left mouse button to draw a rectangle",
+      "clickToDrawRectangle": "Click to draw rectangle",
+      "selectedPolygon": "Selected Polygon",
+      "regionName": "Region name",
+      "selectExistingPolygon": "Select existing polygon"
+    },
+    "core": {
+      "errors": {
+        "tooDeepAddedByUser": "Reached 100 catalog items when checking addedByUser and landing on ID: \"{{memberId}}\"? Check that you haven't got a recursive catalog group."
+      },
+      "userAddedData": "User-Added Data",
+      "chartData": "Chart Data",
+      "dataUri": {
+        "errorTitle": "Browser Does Not Support Data Download",
+        "errorMessage": "Unfortunately Microsoft browsers (including all versions of Internet Explorer and Edge) do not support the data uri functionality needed to download data as a file. To download, copy the following uri into another browser such as $t(browsers.chrome), $t(browsers.firefox), or $t(browsers.safari): {{href}}"
+      },
+      "dataType": {
+        "auto": "Αυτόματος εντοπισμός (προτείνεται)",
+        "wms-group": "Web Map Service (WMS) Server",
+        "wmts-group": "Web Map Tile Service (WMTS) Server",
+        "wfs-group": "Web Feature Service (WFS) Server",
+        "wps-getCapabilities": "Web Processing Service (WPS) Server",
+        "esri-group": "Esri ArcGIS Server",
+        "esri-mapServer": "Esri ArcGIS MapServer (single layer)",
+        "esri-featureServer": "Esri ArcGIS FeatureServer (single layer)",
+        "3d-tiles": "3D Tiles",
+        "open-street-map": "Open Street Map Server",
+        "sdmx-group": "SDMX-JSON",
+        "opendatasoft-group": "Opendatasoft Portal",
+        "geojson": "GeoJSON",
+        "geoRss": "GeoRSS",
+        "kml": "KML or KMZ",
+        "csv": "CSV",
+        "czml": "CZML",
+        "gpx": "GPX",
+        "json": "JSON",
+        "carto": "Carto",
+        "gltf": "GLTF",
+        "shp": "Shapefile (zip)",
+        "socrata-group": "Socrata Server"
+      },
+      "printWindow": {
+        "errorTitle": "Σφάλμα Εκτύπωσης",
+        "errorMessage": "Η εκτύπωση δεν ξεκίνησε μετά από 10 δευτερόλεπτα. Ίσως ο περιηγητής σας δεν υποστηρίζει την εκτύπωση?",
+        "printMediaStart": "print media start",
+        "printMediaEnd": "print media end",
+        "onbeforeprint": "onbeforeprint",
+        "onafterprint": "onafterprint"
+      },
+      "consoleAnalytics": {
+        "started": "ConsoleAnalytics was started.",
+        "startedNoenableConsoleAnalytics": "ConsoleAnalytics was started, however `configParameters.enableConsoleAnalytics` was not defined or set to false.",
+        "logStartedWithGAParameters": "ConsoleAnalytics was started but a `googleAnalyticsKey` or `googleAnalyticsOptions` key was observed on `configParameters`"
+      },
+      "googleAnalytics": {
+        "log": "Google Analytics tracking is disabled because terria.configParameters.googleAnalyticsKey is not specified",
+        "logEnabledOnDevelopment": "Google Analytics was initialised in a `development` environment"
+      },
+      "readText": {
+        "fileRequired": "file is require"
+      },
+      "readXml": {
+        "xmlError": "The file does not contain valid XML."
+      },
+      "serverConfig": {
+        "failedToGet": "Failed to get server config from {{serverConfigUrl}}. This means services such as proxy, convert and URL shortening may not work."
+      },
+      "terriaError": {
+        "defaultTitle": "Προέκυψε κάποιο σφάλμα",
+        "defaultMessage": "Άγνωστο Σφάλμα",
+        "defaultCombineTitle": "Multiple errors occurred",
+        "defaultCombineMessage": "Details of the errors are below",
+        "networkRequestTitle": "A network request error occurred",
+        "networkRequestMessage": "Data may not be available or display correctly due to data custodian's service outage. Please try reloading the map, accessing the data at a later stage, or selecting a different dataset. <feedbacklink feedback-message='If the problem persists, please submit feedback here.' email-message='If the problem persists, please report to {{email}}'/>",
+        "networkRequestMessageDetailed": "This may indicate one of the following:\n\n* The server hostname could not be resolved\n* The server did not respond to the request - or is temporarily unavailable\n* The server denied [Cross-Origin Resource Sharing (CORS)](https://docs.terria.io/guide/connecting-to-data/cross-origin-resource-sharing/) access to this URL\n* There is a problem with your internet connection\n\nIf you entered the link manually, please verify that the link is correct."
+      }
+    },
+    "map": {
+      "addressGeocoder": {
+        "devError": "bulkConvertAddresses must be implemented in the derived class."
+      },
+      "cesium": {
+        "devError": "cesium is required.",
+        "failedToObtain": "Failed to obtain image tile X: {{x}} Y: {{y}} Level: {{level}}.",
+        "notWebMercatorTilingScheme": "This dataset cannot be displayed on the 2D map because it does not support the Web Mercator (EPSG:3857) projection.",
+        "unusalTilingScheme": "This dataset cannot be displayed on the 2D map because it uses an unusual tiling scheme that is not supported."
+      },
+      "computeRingWindingOrder": {
+        "devError": "Expected points of type {x:number, y:number}"
+      },
+      "displayVariablesConcept": {
+        "defaultName": "Display Variable"
+      },
+      "drawExtentHelper": {
+        "drawExtent": "Draw Extent",
+        "extent": "Extent"
+      },
+      "gmlToGeoJson": {
+        "missingPos": "GML point element is missing a pos element.",
+        "missingExteriorRing": "GML polygon is missing its exterior ring.",
+        "missingPosList": "GML polygon's exterior ring is missing a posList.",
+        "containsUnsupportedFeatureType": "GML contains unsupported feature type: {{type}}"
+      },
+      "geoRssToGeoJson": {
+        "containsUnsupportedFeatureType": "GeoRSS contains unsupported feature type: {{type}}"
+      },
+      "w3cToGeoJson": {
+        "containsUnsupportedFeatureType": "GeoRSS with W3C geometry contains unsupported feature type: {{type}}"
+      },
+      "gnafAddressGeocoder": {
+        "noAddresses": "This tableStructure has no addresses!",
+        "noAddresses2": "Even though the tableStructure reports it has an address column, it has no addresses",
+        "suburb": "Suburb",
+        "state": "State",
+        "postcode": "Postcode",
+        "matchedAddresses": "Matched Address",
+        "lon": "Lon",
+        "lat": "Lat",
+        "score": "Score",
+        "poBox": "po box",
+        "postOfficeBox": "post office box"
+      },
+      "imageryProviderHooks": {
+        "devError": "No context for image recoloring."
+      },
+      "mapboxVectorTileImageryProvider": {
+        "requireLayerName": "MapboxVectorTileImageryProvider requires a layer name passed as options.layerName",
+        "requireStyles": "MapboxVectorTileImageryProvider requires a styling function passed as options.styleFunc",
+        "moreThanFourTiles": "The imagery provider's rectangle and minimumLevel indicate that there are {{tileCount}} tiles at the minimum level. Imagery providers with more than four tiles at the minimum level are not supported.",
+        "maxLevelError": "Maximum level too high for data set"
+      },
+      "regionProvider": {
+        "csvRegionMappingTitle": "CSV region mapping",
+        "csvRegionMappingMessageZeroFound": "Zero region names found for region type {{regionType}}",
+        "csvRegionMappingMessageZeroBoundariesFound": "Zero region boundaries found for region {{regionName}}",
+        "csvRegionMappingMessageLoadError": "Couldn't load region boundaries for region {{regionName}} {{exception}}"
+      },
+      "extraCreditLinks": {
+        "dataAttribution": "Data attribution",
+        "disclaimer": "Disclaimer",
+        "basemap": "Basemap"
+      }
+    },
+    "models": {
+      "userData": {
+        "addingDataErrorTitle": "Data could not be added",
+        "addingDataErrorMessage": "The specified data could not be added because it is invalid or does not have the expected format.",
+        "fileApiNotSupportedTitle": "File API not supported",
+        "fileApiNotSupportedMessage": "Sorry, your web browser does not support the File API, which {{appName}} requires in order to add data from a file on your system.  Please upgrade your web browser.  For the best experience, we recommend the latest version of {{chrome}}, {{firefox}} or {{edge}}."
+      },
+      "arcGisService": {
+        "name": "ArcGIS Service Group",
+        "invalidServerTitle": "Invalid ArcGIS Server",
+        "invalidServerMessage": "An error occurred while invoking the ArcGIS REST service.  The server's response does not appear to be a valid ArcGIS REST document.",
+        "groupNotAvailableTitle": "Group is not available",
+        "groupNotAvailableMessage": "An error occurred while invoking the ArcGIS REST service."
+      },
+      "arcGisFeatureServer": {
+        "name": "ArcGIS Feature Server",
+        "nameGroup": "ArcGIS Feature Server Group",
+        "invalidServiceTitle": "Invalid ArcGIS Feature Service",
+        "invalidServiceMessage": "An error occurred while invoking the ArcGIS Feature Service.  The server's response does not appear to be a valid Feature Service document.",
+        "groupNotAvailableTitle": "Group is not available",
+        "groupNotAvailableMessage": "An error occurred while invoking the ArcGIS Feature Service."
+      },
+      "arcGisFeatureServerCatalogGroup": {
+        "name": "ArcGIS Feature Server Group",
+        "dataDescription": "Data Description",
+        "serviceDescription": "Service Description",
+        "copyrightText": "Copyright Text",
+        "invalidServiceTitle": "Invalid ArcGIS Feature Service",
+        "invalidServiceMessage": "An error occurred while invoking the ArcGIS Feature Service.  The server's response does not appear to be a valid Feature Service document.",
+        "groupNotAvailableTitle": "Group is not available",
+        "groupNotAvailableMessage": "An error occurred while invoking the ArcGIS Feature Service."
+      },
+      "arcGisFeatureServerCatalogItem": {
+        "name": "Esri ArcGIS FeatureServer",
+        "dataDescription": "Data Description",
+        "serviceDescription": "Service Description",
+        "copyrightText": "Copyright Text",
+        "missingUrlTitle": "Unable to load FeatureServer",
+        "missingUrlMessage": "Could not load the ArcGis FeatureServer endpoint because the catalog item does not have a `url`.",
+        "invalidServiceTitle": "Invalid ArcGIS Feature Service layer",
+        "invalidServiceMessage": "An error occurred while invoking the ArcGIS Feature Service.  The server's response does not appear to be a valid Feature Service layer.",
+        "reachedMaxFeatureLimit": "Warning: This layer has reached the FeatureService feature limit ({{maxFeatures}})."
+      },
+      "arcGisMapServerCatalogGroup": {
+        "name": "ArcGIS Map Server Group",
+        "dataDescription": "Data Description",
+        "serviceDescription": "Service Description",
+        "copyrightText": "Copyright Text",
+        "invalidServiceTitle": "Invalid ArcGIS Map Service",
+        "invalidServiceMessage": "An error occurred while invoking the ArcGIS Map Service.  The server's response does not appear to be a valid Map Service document.",
+        "groupNotAvailableTitle": "Group is not available",
+        "groupNotAvailableMessage": "An error occurred while invoking the ArcGIS Map Service."
+      },
+      "arcGisMapServerCatalogItem": {
+        "name": "Esri ArcGIS MapServer",
+        "dataDescription": "Data Description",
+        "serviceDescription": "Service Description",
+        "copyrightText": "Copyright Text",
+        "invalidUrlTitle": "Unable to load MapServer",
+        "invalidUrlMessage": "Could not load the ArcGis MapServer endpoint because the catalog item does not have a `url`.",
+        "noLayersFoundTitle": "Could not load ArcGIS MapServer.",
+        "noLayersFoundMessage": "The Esri ArcGIS MapServer '{{name}}' has no layers to show."
+      },
+      "bing": {
+        "name": "Bing Maps"
+      },
+      "wcs": {
+        "asyncResultLoadingMetadata": "WCS loading:\n{{name}} service at {{timestamp}}.\n\n*Loading metadata (`DescribeCoverage`)*",
+        "asyncResultDescription": "This is the result of exporting data from {{name}} service at {{timestamp}} with the input parameters below.",
+        "asyncPendingDescription": "WCS loading:\n{{name}} service at {{timestamp}}.\n\n*Downloading coverage*",
+        "exportFailedTitle": "Data export failed",
+        "exportFailedMessage": "The Web Coverage Service failed",
+        "exportFailedMessageII": "The Web Coverage Service failed: {{error}}"
+      },
+      "cartoMap": {
+        "name": "Carto Map",
+        "noUrlTitle": "No URL",
+        "noUrlMessage": "Unable to find a usable URL for the Carto Map layer."
+      },
+      "cesiumTerrain": {
+        "name": "Cesium Terrain",
+        "name3D": "Cesium 3D Tiles",
+        "notSupportedErrorTitle": "Not supported in 2D",
+        "notSupportedErrorMessage": "\"{{name}}\" cannot be show in the 2D view. Switch to 3D and try again.",
+        "errorRenderingTitle": "Error rendering in 3D",
+        "errorRenderingMessage": "An error occurred while rendering in 3D.  This probably indicates a bug in {{appName}} or an incompatibility with your system or web browser.  We'll now switch you to 2D so that you can continue your work."
+      },
+      "ckan": {
+        "nameServer": "CKAN Server",
+        "errorLoadingTitle": "Error loading CKAN catalogue",
+        "errorLoadingMessage": "The definition for this CKAN catalogue does not have a valid filter query.",
+        "corsErrorMessage": "Couldn't retrieve packages from this CKAN server.",
+        "name": "CKAN Resource",
+        "dataSourceErrorMessage": "This data source does not have any details available.",
+        "serviceErrorMessage": "This service does not have any details available.",
+        "datasetDescription": "Dataset Description",
+        "dataDescription": "Data Description",
+        "resourceDescription": "Resource Description",
+        "datasetCustodian": "Dataset Custodian",
+        "licence": "Licence",
+        "author": "Author",
+        "contact_point": "Contact",
+        "metadata_created": "Created",
+        "metadata_modified": "Modified",
+        "update_freq": "Update Frequency",
+        "idsNotSpecifiedTitle": "resourceId or datasetId must be specified",
+        "idsNotSpecifiedMessage": "CkanCatalogItem requires that either resourceId or datasetId be specified.",
+        "errorRetrievingUrlTitle": "Error retrieving CKAN URL",
+        "errorRetrievingUrlMessage": "Could not retrieve URL as JSON: {{url}}.",
+        "invalidCkanTitle": "Invalid CKAN resource JSON",
+        "invalidCkanMessage": "The resource returned from the CKAN server does not appear to have a package_id.",
+        "notCompatibleTitle": "No compatible resources found",
+        "notCompatibleMessageI": "The CKAN dataset does not have a resource with the ID {{resourceId}} or it does not have a supported format.",
+        "notCompatibleMessageII": "The CKAN dataset does not have any resources with a supported format."
+      },
+      "arcgisPortal": {
+        "nameGroup": "ArcGIS Portal Group",
+        "errorLoadingTitle": "Error loading ArcGIS Portal catalogue",
+        "errorLoadingMessage": "The definition for this ArcGIS Portal catalogue does not have a valid filter query.",
+        "corsErrorMessage": "Couldn't retrieve packages from this ArcGIS Portal server. ",
+        "name": "ArcGIS Portal Item",
+        "dataSourceErrorMessage": "This data source does not have any details available.",
+        "serviceErrorMessage": "This service does not have any details available.",
+        "datasetDescription": "Dataset Description",
+        "licence": "Licence",
+        "openInPortal": "Open in ArcGIS Portal",
+        "idsNotSpecifiedTitle": "resourceId or datasetId must be specified",
+        "idsNotSpecifiedMessage": "ArcGIS Portal Item requires an itemId to be specified.",
+        "errorRetrievingUrlTitle": "Error retrieving ArcGIS Portal URL",
+        "errorRetrievingUrlMessage": "Could not retrieve URL as JSON: {{url}}."
+      },
+      "catalog": {
+        "name": "Unnamed Item",
+        "group": "Group",
+        "idForMatchingErrorTitle": "Missing property",
+        "idForMatchingErrorMessage": "Model objects must have an `id`, `localId`, or `name` property.",
+        "catalogMemberMustHaveName": "A newly created catalog member must have a name.",
+        "catalogMemberMustHaveType": "A catalog member must have a type.",
+        "userAddedDataGroup": "The group for data that was added by the user via the Add Data panel.",
+        "chartDataGroup": "A group for chart data.",
+        "dataSourceErrorMessage": "This data source does not have any details available.",
+        "serviceErrorMessage": "This service does not have any details available.",
+        "stubCreationFailure": "Could not stub out catalog item {{item}}",
+        "unsupportedTypeTitle": "Unknown type",
+        "unsupportedTypeMessage": "Could not create unknown model type {{type}}.",
+        "unsupportedFileTypeTitle": "Unsupported file type",
+        "unsupportedFileTypeMessage": "This file format is not supported by {{appName}}. Supported file formats include: <ul><li>.geojson</li><li>.kml, .kmz</li><li>.csv (in {{link}})</li><li>Shapefile (.zip)</li></ul>",
+        "upload": "Προσθήκη",
+        "mustHaveType": "Each item must have a type.",
+        "compositesError": "Composites cannot include composite items.",
+        "convertErrorTitle": "Could not upgrade catalog to V8",
+        "convertErrorMessage": "This catalog file is based on an older version of TerriaJS - the software powering this web map. An error has occurred trying to upgrade the catalog data for {{url}}."
+      },
+      "createParameter": {
+        "unsupportedErrorTitle": "Unsupported function parameter type",
+        "unsupportedErrorMessage": "Unknown function parameter type: {{type}}."
+      },
+      "csv": {
+        "name": "Comma-Separated Values (CSV)",
+        "dataSourceErrorMessage": "This data source does not have any details available.",
+        "serviceErrorMessage": "This service does not have any details available.",
+        "unexpectedTypeTitle": "Unexpected type of CSV data",
+        "unexpectedTypeMessage": "CsvCatalogItem data is expected to be a Blob, File, or String, but it was not any of these.",
+        "unableToLoadTitle": "Unable to load CSV file",
+        "unableToLoadMessage": "See the <a href=\"https://github.com/TerriaJS/nationalmap/wiki/csv-geo-au\">csv-geo-au</a> specification for supported CSV formats.\n\n {{message}}",
+        "unableToLoadItemTitle": "No CSV available",
+        "unableToLoadItemMessage": "The CSV catalog item cannot be loaded because it was not configured with a `url` or `csvString` property."
+      },
+      "csw": {
+        "name": "Catalogue Service (CSW)",
+        "unknownError": "The CSW server reported an unknown error.",
+        "exceptionMessage": "The CSW server reported an error:\n\n {{exceptionText}}",
+        "errorLoadingTitle": "Could not load CSW",
+        "notUseableTitle": "Catalogue service is not usable.  \n\n {{message}}",
+        "notUseableMessage": "Invalid response obtained when invoking GetDomain on the CSW server.",
+        "errorLoadingRecordsTitle": "Failed to load CSW records.",
+        "errorLoadingRecordsMessage": "Invalid response obtained when invoking GetRecords on the CSW",
+        "checkCORSDomain": "Couldn't execute GetDomain on this CSW server.",
+        "checkCORSRecords": "Couldn't execute GetRecords on this CSW server.",
+        "dataResponsibility": "Data Responsibility",
+        "links": "Links",
+        "metadataURL": "Metadata Record URL",
+        "checkCORS": "Couldn't execute GetRecords on this CSW server.",
+        "cors": "CORS",
+        "missingUrlTitle": "Unable to load Catalogue Service (CSW)",
+        "missingUrlMessage": "Could not load the Catalogue Service (CSW) because the catalog group does not have a `url`."
+      },
+      "czml": {
+        "name": "Cesium Language (CZML)",
+        "dataSourceErrorMessage": "This data source does not have any details available.",
+        "serviceErrorMessage": "This service does not have any details available.",
+        "errorLoadingTitle": "Could not load CZML",
+        "errorLoadingMessage": "An error occurred while loading a CZML file.",
+        "unableToLoadItemTitle": "No CZML available",
+        "unableToLoadItemMessage": "The CZML catalog item cannot be loaded because it was not configured with a `url`, `czmlData`, or `czmlString` property."
+      },
+      "function": {
+        "unknownFormaterTitle": "Unknown formatter",
+        "unknownFormaterMessage": "The function parameter formatter {{formatter}} is unknown.\n\nValid formatters are:\n\n"
+      },
+      "geoJson": {
+        "name": "GeoJSON",
+        "dataSourceErrorMessage": "This data source does not have any details available.",
+        "serviceErrorMessage": "This service does not have any details available.",
+        "errorLoadingTitle": "Error loading GeoJSON",
+        "errorParsingMessage": "An error occurred parsing the provided data as JSON.  This may indicate that the file is invalid or that it is not supported.",
+        "errorLoadingMessage": "An error occurred while loading a GeoJSON file.  This may indicate that the file is invalid or that it is not supported.",
+        "couldNotLoadTitle": "Could not load JSON",
+        "couldNotLoadMessage": "An error occurred while retrieving JSON data from the provided link.CORS",
+        "unableToLoadItemTitle": "No GeoJSON available",
+        "unableToLoadItemMessage": "The GeoJSON catalog item cannot be loaded because it was not configured with a `url`, `geoJsonData`, or `geoJsonString` property.",
+        "unsupportedBrowserTitle": "Unsupported web browser",
+        "unsupportedBrowserMessage": "Sorry, your web browser does not support the File API, which {{appName}} requires in order to load this dataset.  Please upgrade your web browser.  For the best experience, we recommend the latest versions of $t(browsers.chrome) or $t(browsers.firefox) or $t(browsers.edge) or $t(browsers.safari)."
+      },
+      "shapefile": {
+        "name": "Shapefile"
+      },
+      "getToken": {
+        "errorTitle": "Token Error",
+        "invalidToken": "<p>The token server responded with an invalid token.</p><p>Please report it by sending an email to {{email}}</p>",
+        "unableToRequest": "<p>Unable to request a token from the token server.</p><p>Please report it by sending an email to {{email}}</p>"
+      },
+      "gltf": {
+        "name": "GL Transmission Format (glTF)",
+        "dataSourceErrorMessage": "This data source does not have any details available.",
+        "serviceErrorMessage": "This service does not have any details available.",
+        "notSupportedErrorTitle": "Not supported in 2D",
+        "notSupportedErrorMessage": "\"{{name}}\" cannot be show in the 2D view.  Switch to 3D and try again.",
+        "error": "Error",
+        "unableToRetrieve": "Unable to retrieve feature details from:\n\n{{url}}"
+      },
+      "gpx": {
+        "name": "GPX",
+        "dataSourceErrorMessage": "This data source does not have any details available.",
+        "serviceErrorMessage": "This service does not have any details available.",
+        "errorLoadingTitle": "Error loading GPX",
+        "errorLoadingMessage": "An error occurred while loading a GPX file.  This may indicate that the file is invalid or that it is not supported by {{appName}}."
+      },
+      "georss": {
+        "name": "GeoRSS",
+        "subtitle": "Subtitle",
+        "updated": "Updated",
+        "category": "Category",
+        "description": "Description",
+        "copyrightText": "Copyright Text",
+        "link": "Link",
+        "author": "Author",
+        "errorLoadingTitle": "Could not load GeoRSS",
+        "errorLoadingMessage": "An error occurred while loading a GeoRSS file.",
+        "unableToLoadItemTitle": "No GeoRSS available",
+        "unableToLoadItemMessage": "The GeoRSS catalog item cannot be loaded because it was not configured with a `url`, or `geoRss` property."
+      },
+      "imageryLayer": {
+        "intervalSupportErrorTitle": "Intervals not supported",
+        "intervalSupportErrorMessage": "Sorry, {{typeName}} ({{type}}) catalog items cannot currently be made time-varying by specifying the \"intervals\" property.",
+        "resolvingAvailability": "Resolving availability at a location...",
+        "accessingBaseMapErrorTitle": "Error accessing base map",
+        "accessingBaseMapErrorMessage": "An error occurred while attempting to download tiles for base map:<p><center>{{name}} </center></p> Please select a different base map using the Map button in the top-right corner.",
+        "accessingCatalogItemErrorTitle": "Error accessing catalogue item",
+        "accessingCatalogItemErrorMessage": "An error occurred while attempting to download tiles for catalogue item:<p><center>{{name}}</center></p> The catalogue item has been hidden from the map.  You may re-show it in the Now Viewing panel to try again.",
+        "tileErrorTitle": "Tile Error",
+        "tileErrorMessage": "The tile with the URL:\n{{url}}\n succeeded when loaded with XMLHttpRequest but failed multiple times when loaded directly by Cesium or Leaflet.\n This may indicate that the server is very sensitive to the request headers provided or is simply unreliable.",
+        "tileErrorMessageII": "Got a 200 (OK) response from URL:\n{{url}}\nbut it could not be loaded as an image.",
+        "unknownTileErrorTitle": "Unknown Tile Error",
+        "unknownTileErrorMessage": "While accessing URL:\n{{url}}\nThis probably indicates one of the following:\n* The server hostname could not be resolved,\n* The server did not respond to the request, or\n* The server denied Cross-Origin Resource Sharing (CORS) access to this URL (See https://docs.terria.io/guide/connecting-to-data/cross-origin-resource-sharing/).",
+        "unableToDisplayTitle": "Unable to display dataset",
+        "unableToDisplayMessage": "{{name}} cannot be shown in 2D because it does not support the standard Web Mercator (EPSG:3857) projection. Please switch to 3D if it is supported on your system, update the dataset to support the projection, or use a different dataset.",
+        "unableToShowLocTitle": "Unable to show at this location",
+        "unableToShowLocMessage": "{{name}} cannot be shown at this location because the available capture times are unknown. The {{featureTimesProperty}} property was not found."
+      },
+      "invokeAnalyticsService": {
+        "invocationFailedTitle": "Service invocation failed",
+        "invocationFailedMessage": "An error occurred on the server while computing {{invocationName}}."
+      },
+      "ionImagery": {
+        "name": "Cesium Ion Imagery"
+      },
+      "kml": {
+        "name": "KML or KMZ",
+        "dataSourceErrorMessage": "This data source does not have any details available.",
+        "serviceErrorMessage": "This service does not have any details available.",
+        "unexpectedTypeTitle": "Unexpected type of KML data",
+        "unexpectedTypeMessage": "KmlCatalogItem.data is expected to be an XML Document, Blob, or File, but it was none of these. This may indicate a bug in {{appName}} or incorrect use of the {{appName}} API.",
+        "errorLoadingTitle": "Error loading KML or KMZ",
+        "errorLoadingMessage": "An error occurred while loading a KML or KMZ file.  This may indicate that the file is invalid or that it is not supported by {{appName}}.",
+        "unableToLoadItemTitle": "No KML available",
+        "unableToLoadItemMessage": "The KML/KMZ catalog item cannot be loaded because it was not configured with a `url`, `kmlData` or `kmlString` property."
+      },
+      "magda": {
+        "name": "MAGDA Distribution",
+        "dataSourceErrorMessage": "This data source does not have any details available.",
+        "serviceErrorMessage": "This service does not have any details available.",
+        "distributionDesc": "Distribution Description",
+        "idsNotSpecifiedTitle": "recordId must be specified",
+        "idsNotSpecifiedMessage": "MagdaReference requires that recordId be specified.",
+        "retrieveErrorTitle": "Error retrieving MAGDA record",
+        "retrieveErrorMessage": "No distribution or dataset ID provided",
+        "notCompatibleTitle": "No compatible distributions found",
+        "notCompatibleMessageI": "The MAGDA dataset does not have a distribution with the ID {{distributionId}} or it does not have a supported format.",
+        "notCompatibleMessageII": "The MAGDA dataset does not have any distributions with a supported format."
+      },
+      "terria-reference": {
+        "failedToLoadTarget": "Failed to load member from external catalog"
+      },
+      "mapboxMap": {
+        "name": "Mapbox Map"
+      },
+      "mapboxVectorTile": {
+        "name": "Mapbox Vector Tile"
+      },
+      "mapboxStyle": {
+        "name": "Mapbox Style"
+      },
+      "senaps": {
+        "name": "Senaps Locations",
+        "retrieveErrorTitle": "Error processing Senaps Catalog Item",
+        "generalErrorMessage": "Encountered an error processing Senaps data",
+        "missingKeyErrorMessage": "A Senaps API Key should be added to the terriajs-server config using the appendParamToQueryString option",
+        "locationHeadingFeatureInfo": "Location",
+        "availableStreamsHeadingFeatureInfo": "Available Streams",
+        "noStreamsMessageFeatureInfo": "No streams at this location.",
+        "missingSenapsBaseUrl": "Senaps base url not provided. Have you logged in?"
+      },
+      "openStreetMap": {
+        "name": "Open Street Map"
+      },
+      "placesLikeMe": {
+        "regionsLikeThisName": "Regions like this",
+        "regionsLikeThisDescription": "Identifies regions that are _most like_ a given region according to a given set of characteristics.",
+        "regionTypeName": "Region Type",
+        "regionTypeDescription": "The type of region to analyze.",
+        "regionName": "Region",
+        "regionDescription": "The region to analyze.  The analysis will determine which regions are most similar to this one.",
+        "characteristics": "Characteristics",
+        "characteristicsDescription": "The region characteristics to include in the analysis.",
+        "name": "Places Like Me",
+        "regioNotSelectedName": "Region not selected",
+        "regioNotSelectedDescription": "You must select a Region.",
+        "placesLike": "Places like {{regionName}}",
+        "likenessesError": "The list of likenesses and the list of region codes do not contain the same number of elements."
+      },
+      "raiseError": {
+        "errorTitle": "An error occurred",
+        "notificationFeedback": "For questions or feedback, click here.",
+        "notificationFeedbackEmail": "For questions or feedback, please contact {{email}}",
+        "developerDetails": "Developer details"
+      },
+      "regionMapping": {
+        "noDataForDate": "No data for the selected date.",
+        "noDataForRegion": "No data for the selected region.",
+        "outdatedBrowserTitle": "Outdated Web Browser",
+        "outdatedBrowserMessage": "You are using a very old web browser that cannot display \"region mapped\" datasets such as this one.  Please upgrade to the latest version of $t(browsers.chrome), $t(browsers.firefox), $t(browsers.edge), or $t(browsers.safari) as soon as possible.",
+        "invalidServerTypeTitle": "Invalid serverType {{serverType}} in regionMapping.json",
+        "invalidServerTypeMessage": "Expected serverType to be \"WMS\" or \"vector\" but got \"{{serverType}}\"",
+        "notRecognised": "These region names were {{notRecognisedText}} ",
+        "notRecognisedText": "not recognised",
+        "moreThanOneValue": "These regions had {{moreThanOneValueText}}",
+        "moreThanOneValueText": "more than one value",
+        "msg": "Consult the {{link}} to see how to format the file.",
+        "csvSpecification": "CSV-geo-au specification",
+        "issuesLoadingTitle": "Issues loading {{name}}"
+      },
+      "feedback": {
+        "thanksTitle": "Ευχαριστούμε για τα σχόλια σας!",
+        "thanksMessage": "Τα σχόλια σας μας βοηθπούν να βελτιώσουμε το {{appName}} ",
+        "unableToSendTitle": "Η αποστολή σχολίων δεν ήταν δυνατή",
+        "unableToSendMessage": "Αυτό είναι πολύ άβολο, αλλά προέκυψε ένα σφάλμα με την αποστολή των σχολίων σας.  Παρακαλούμε να τα στείλετε με email στο {{email}} ❤️."
+      },
+      "resultPending": {
+        "name": "Result Pending"
+      },
+      "sensorObservationService": {
+        "procedure": "Procedure",
+        "property": "Property",
+        "sos": "SOS",
+        "alreadyLoadingTitle": "Data already loading",
+        "alreadyLoadingMessage": "Your data is still loading. You will be able to change the display once it has loaded",
+        "unknownError": "The server reported an unknown error.",
+        "exceptionMessage": "The server reported an error: \n\n {{exceptionText}}",
+        "missingBody": "The server responded with missing body.",
+        "noFeatures": "There are no features matching your query.",
+        "unknownFormat": "The server responded with an unknown feature format.",
+        "noMatchingFeatures": "The Sensor Observation Service did not return any features matching your query."
+      },
+      "openDataSoft": {
+        "viewDatasetPage": "View dataset page"
+      },
+      "sdmxServerStratum": {
+        "sdmxStructureLoadErrorTitle": "SDMX structure request failed",
+        "loadDataErrorTitle": "Failed to load SDMX group",
+        "loadDataErrorMessage": "The server has no dataflows"
+      },
+      "sdmxJsonDataflowStratum": {
+        "loadDataErrorTitle": "Could not load SDMX dataflow",
+        "loadDataErrorMessage": {
+          "invalidResponse": "Invalid JSON object",
+          "noDatastructure": "No data structures could be found for dataflow {{catalogItem.dataflowId}}",
+          "noDataflow": "Dataflow {{catalogItem.dataflowId}} is invalid"
+        },
+        "defaultUnitMeasure": "Units"
+      },
+      "sdmxCatalogItem": {
+        "viewBy": {
+          "title": "View by",
+          "time": "Time-series",
+          "region": "Region"
+        },
+        "loadDataErrorTitle": "Failed to load SDMX data for {{name}}",
+        "loadDataErrorMessage": "Invalid response from {{csvUrl}}",
+        "noResultsWithDimensions": "No results have been found. Please select different dimension values in the workbench than the following:  \n\n{{dimensions}}"
+      },
+      "time": {
+        "invalidDate": "Invalid Date",
+        "invalidInitialTimeSource": "Invalid initialTimeSource specified in config file: {{initialTimeSource}}"
+      },
+      "shareData": {
+        "generateErrorTitle": "Couldn't generate short URL.",
+        "generateErrorMessage": "Something went wrong when trying to use the share data service to generate a short URL.",
+        "expandErrorTitle": "Couldn't expand URL",
+        "expandErrorMessage": "The share data service used to launch {{appName}} was not located. This may indicate an error in the link or that the service is unavailable at this time."
+      },
+      "socrataServer": {
+        "name": "Socrata Server",
+        "retrieveErrorMessage": "Couldn't retrieve packages from this Socrata server.",
+        "description": "Description",
+        "licence": "Licence",
+        "attributes": "Attributes",
+        "tags": "Tags"
+      },
+      "spatialDetailing": {
+        "name": "Spatial Detailing",
+        "description": "Predicts the characteristics of fine-grained regions by learning and exploiting correlations of coarse-grained data with Census characteristics.",
+        "regionTypeToPredictName": "Region Type to Predict",
+        "regionTypeToPredictDescription": "The type of region for which to predict characteristics.",
+        "coarseDataRegionTypeName": "Coarse Data Region Type",
+        "coarseDataRegionTypeDescription": "The type of region with which the coarse-grained input characteristics are associated.",
+        "aggregationName": "Aggregation",
+        "aggregationDescription": "Specifies how coarse region values were aggregated.  True if the value is the mean of the values across the region, or False if the value is the sum of the values across the region.",
+        "aggregationTrueName": "Mean Aggregation",
+        "aggregationTrueDescription": "Coarse region values are the mean of samples in the region.  For example, average household income.",
+        "aggregationFalseName": "Sum Aggregation",
+        "aggregationFalseDescription": "Coarse region values are the sum of samples in the region.  For example, total population.",
+        "characteristicToPredictName": "Characteristic to Predict",
+        "characteristicToPredictDescription": "The characteristic to predict for each region.",
+        "spatialDetailingOf": "Spatial detailing of {{of}} at {{at}}",
+        "wrongNumberOfElements": "The list of values and the list of region codes do not contain the same number of elements"
+      },
+      "tableData": {
+        "noData": "No data to show",
+        "unsupportedCharactersTitle": "Invalid characters in latitude and longitude columns",
+        "unsupportedCharactersMessage": "Could not interpret latitude and longitude pair {{longitude}}, {{latitude}}",
+        "bulkGeocoderInfoTitle": "Bulk Geocoder Information",
+        "bulkGeocoderInfoMessage": "The CSV contains addresses, but {{number}} can't be located on the map: ",
+        "bulkGeocoderInfo2Message": "{{nullAddresses}} addresses are missing from the CSV.",
+        "bulkGeocoderErrorTitle": "Bulk Geocoder Error",
+        "bulkGeocoderErrorMessage": "Unable to map addresses to lat-long coordinates, as an error occurred while retrieving address coordinates. Please check your internet connection or try again later.",
+        "legendZFilterLabel": "Extreme values",
+        "legendNullLabel": "(No value)",
+        "styleDisabledLabel": "Disable style",
+        "zFilterEnabled": "Extreme values hidden (click to show)",
+        "zFilterDisabled": "Extreme values detected (click to hide)",
+        "timeDimensionEnabled": "Time enabled (click to disable)",
+        "timeDimensionDisabled": "Time disabled (click to enable)"
+      },
+      "terrainCatalog": {
+        "notSupportedErrorTitle": "Δεν υποστηρίζεται σε 2D",
+        "notSupportedErrorMessage": "Δεν μπορεί να γίνει θέαση του {{name}} σε 2D προβολή. Κάνετε εναλλαγή σε 3D και δοκιμάστε ξανά"
+      },
+      "terria": {
+        "loadConfigErrorTitle": "Failed to load Terria Map config",
+        "proxyableDomainsDeprecation": "`proxyableDomainsUrl` is no longer supported in v8",
+        "initErrorTitle": "Failed to initialize services",
+        "initErrorMessage": "A problem occurred with the Terria server. This may cause some layers or the conversion service to be unavailable.",
+        "urlLoadErrorTitle": "Problem loading URL",
+        "urlLoadErrorMessage": "A problem occurred while initialising Terria with URL parameters.",
+        "loadModelErrorMessage": "An error occurred while loading model `{{model}}`.",
+        "loadingMagdaInitSourceErrorTitle": "Error loading Magda initialization source",
+        "loadingMagdaInitSourceErrorMessage": "An error occurred while loading initialization information from Magda record `{{url}}`.",
+        "loadingInitSourcesErrorTitle": "Error loading map configuration",
+        "loadingInitSourcesErrorMessage": "An error occurred while loading {{appName}} map configuration &mdash; it may not display correctly. Please try reloading the map, and if the problem persists, please report it by sending an email to {{email}}, or you can press the button below.",
+        "loadingInitSourceErrorTitle": "Error loading initialization source",
+        "loadingInitSourceErrorMessage": "Could not load initialization information from `{{fragment}}` because no initFragmentPaths are defined.",
+        "loadingInitSourceError2Message": "An error occurred while loading initialization information from:  \n*`{{loadSource}}`*.",
+        "loadingInitJsonMessage": "An error occurred while loading JSON file {{url}}.",
+        "loadingBaseMapsErrorTitle": "Error loading basemaps",
+        "loadingBaseMapErrorTitle": "Error loading basemap: `{{name}}`",
+        "loadingShareDataErrorTitle": "Error loading share data",
+        "parsingStartDataErrorMessage": "An error occurred while parsing start data JSON.",
+        "loadingWorkbenchItemErrorTitle": "Error loading item in workbench: `{{name}}`",
+        "disclaimer": "Disclaimer",
+        "buttonTitleConfirm": "I Agree"
+      },
+      "terriaJSONcatalog": {
+        "name": "Terria JSON Catalog Function",
+        "misconfiguredErrorTitle": "Misconfigured init file",
+        "misconfiguredErrorMessage": "Service not configured for TerriaJsonCatalogFunction HTTP 202.",
+        "misconfiguredError2Message": "HTTP 202 configuration {{url}} not present in response {{xhr}}",
+        "serviceResponseErrorTitle": "Service response not JSON string",
+        "serviceResponseErrorMessage": "TerriaJsonCatalogFunction was supposed to receive a JSON string, received {{xhr}}",
+        "requestFailedTitle": "Request Failed",
+        "requestFailedMessage": "Request failed with status code {{status}}.",
+        "asyncResultDescription": "This is the result of invoking the {{name}} process or service at {{timestamp}} with the input parameters below.",
+        "loadingInitSourceErrorTitle": "Error loading initialization source",
+        "loadingInitSourceErrorMessage": "Error loading initialization source {{fragment}} because no initFragmentPaths are defined.",
+        "loadingInitSourceError2Message": "An error occurred while loading initialization information from:  \n*`{{loadSource}}`*.",
+        "disclaimer": "Disclaimer",
+        "buttonTitleConfirm": "I Agree"
+      },
+      "thredds": {
+        "nameGroup": "THREDDS Catalog Group"
+      },
+      "threddsItem": {
+        "name": "THREDDS Item Reference"
+      },
+      "urlTemplateMapServer": {
+        "name": "URL Template Map Server"
+      },
+      "userDrawing": {
+        "devError": "Terria instance is required.",
+        "messageHeader": "Draw on Map",
+        "pointEntities": "Points",
+        "otherEntities": "Lines and polygons",
+        "line": "Line",
+        "firstPoint": "First Point",
+        "btnCancel": "Cancel",
+        "btnDone": "Done",
+        "clickToAddFirstPoint": "Click to add a point",
+        "clickToAddAnotherPoint": "Click to add another point",
+        "clickToRedrawRectangle": "Click another point to redraw the rectangle",
+        "anotherPoint": "Another Point",
+        "userPolygon": "User polygon"
+      },
+      "webFeatureServiceCatalogGroup": {
+        "wfsServer": "Web Feature Service (WFS) Server",
+        "invalidWFSServerTitle": "Invalid WFS server",
+        "invalidWFSServerMessage": "An error occurred while invoking GetCapabilities on the WFS server.  The server's response does not appear to be a valid GetCapabilities document.",
+        "groupNotAvailableTitle": "Group is not available",
+        "groupNotAvailableMessage": "An error occurred while invoking GetCapabilities on the WFS server.",
+        "abstract": "Web Feature Service Description",
+        "accessConstraints": "Web Feature Service Access Constraints",
+        "fees": "Web Feature Service Fees"
+      },
+      "webFeatureServiceCatalogItem": {
+        "wfs": "Web Feature Service (WFS)",
+        "dataDescription": "Data Description",
+        "abstract": "Web Feature Service Description",
+        "serviceDescription": "Service Description",
+        "metadataUrls": "Metadata Links",
+        "accessConstraints": "Access Constraints",
+        "serviceContact": "Service Contact",
+        "getCapabilitiesUrl": "GetCapabilities URL",
+        "noLayerFoundTitle": "No layer found",
+        "noLayerFoundMessage": "The WFS dataset '{{name}}' has no layers matching '{{typeNames}}'. {{suggested}} {{line}}{{line}}Either the catalog file has been set up incorrectly, or the WFS server has changed.",
+        "missingDataTitle": "Missing data",
+        "missingDataMessage": "The WFS dataset '{{name}}' did not return any data.{{line}}{{line}}Either the catalog file has been set up incorrectly, or the server address has changed.",
+        "missingUrlTitle": "Unable to load GetCapabilities",
+        "missingUrlMessage": "Could not load the Web Feature Service (WFS) GetCapabilities document because the catalog item does not have a `url`.",
+        "reachedMaxFeatureLimit": "Warning: This layer has reached the WFS feature limit ({{maxFeatures}})"
+      },
+      "webMapServiceCatalogGroup": {
+        "wmsServer": "Web Map Service (WMS) Server",
+        "invalidWMSServerTitle": "Invalid WMS server",
+        "invalidWMSServerMessage": "An error occurred while invoking GetCapabilities on the WMS server. The server's response does not appear to be a valid GetCapabilities document.",
+        "groupNotAvailableTitle": "Group is not available",
+        "groupNotAvailableMessage": "An error occurred while invoking GetCapabilities on the WMS server.",
+        "missingUrlTitle": "Unable to load GetCapabilities",
+        "missingUrlMessage": "Could not load the Web Map Service (WMS) GetCapabilities document because the catalog item does not have a `url`.",
+        "abstract": "Web Map Service Description",
+        "accessConstraints": "Web Map Service Access Constraints",
+        "fees": "Web Map Service Fees"
+      },
+      "webMapServiceCatalogItem": {
+        "wms": "Web Map Service (WMS)",
+        "dataDescription": "Data Description",
+        "serviceDescription": "Service Description",
+        "metadataUrls": "Metadata Links",
+        "accessConstraints": "Access Constraints",
+        "serviceContact": "Service Contact",
+        "getCapabilitiesUrl": "GetCapabilities URL",
+        "defaultStyleLabel": "Default style",
+        "noLayerFoundTitle": "No layer found",
+        "noLayerFoundMessage": "The WMS dataset '{{name}}' has no layers matching '{{layers}}'. {{suggested}} {{line}}{{line}}Either the catalog file has been set up incorrectly, or the WMS server has changed.",
+        "badlyFormatedTitle": "Badly formatted periodicity",
+        "badlyFormatedMessage": "The '{{name}}' dataset has a badly formed periodicity, '{{isoSegments}}'. Click the dataset's Info button for more information about the dataset and the data custodian.",
+        "missingDataTitle": "Missing data",
+        "missingDataMessage": "The WMS dataset '{{name}}' did not return any data.{{line}}{{line}}Either the catalog file has been set up incorrectly, or the server address has changed.",
+        "missingUrlTitle": "Unable to load GetCapabilities",
+        "missingUrlMessage": "Could not load the Web Map Service (WMS) GetCapabilities document because the catalog item does not have a `url`."
+      },
+      "webMapTileServiceCatalogGroup": {
+        "wmtsServer": "Web Map Tile Service (WMTS) Server",
+        "invalidWMTSServerTitle": "Invalid WMTS server",
+        "invalidWMTSServerMessage": "An error occurred while invoking GetCapabilities on the WMTS server. The server's response does not appear to be a valid GetCapabilities document.",
+        "groupNotAvailableTitle": "Group is not available",
+        "groupNotAvailableMessage": "An error occurred while invoking GetCapabilities on the WMTS server.",
+        "abstract": "Web Map Service Description",
+        "accessConstraints": "Web Map Service Access Constraints",
+        "fees": "Web Map Service Fees",
+        "invalidCapabilitiesTitle": "Invalid GetCapabilities",
+        "invalidCapabilitiesMessage": "The URL {{url}} was retrieved successfully but it does not appear to be a valid Web Map Tile Service (WMTS) GetCapabilities document. \n\nEither the catalog file has been set up incorrectly, or the server address has changed."
+      },
+      "webMapTileServiceCatalogItem": {
+        "wmts": "Web Map Tile Service (WMTS)",
+        "dataDescription": "Data Description",
+        "serviceDescription": "Service Description",
+        "accessConstraints": "Access Constraints",
+        "fees": "Web Map Tile Service Fees",
+        "serviceContact": "Service Contact",
+        "getCapabilitiesUrl": "GetCapabilities URL",
+        "missingUrlTitle": "Unable to load GetCapabilities",
+        "missingUrlMessage": "Could not load the Web Map Tile Service (WMTS) GetCapabilities document because the catalog item does not have a `url`.",
+        "noUsableTileMatrixTitle": "Warning",
+        "noUsableTileMatrixMessage": "This WMTS layer has no Web Mercator tile matrix set - it may not display correctly"
+      },
+      "webProcessingService": {
+        "wps": "Web Processing Service (WPS)",
+        "invalidWPSServerTitle": "Invalid WPS server",
+        "invalidWPSServerMessage": "An error occurred while invoking {{endpoint}} on the WPS server for process name {{name}}. The server's response does not appear to be a valid {{endpoint}} document.",
+        "processDescriptionErrorTitle": "Process does not have a process description",
+        "processDescriptionErrorMessage": "The WPS DescribeProcess for this process does not include a ProcessDescription.",
+        "processInputErrorTitle": "Process does not have any inputs",
+        "processInputErrorMessage": "This WPS process does not specify any inputs.",
+        "unsupportedParameterErrorTitle": "Unsupported parameter type",
+        "unsupportedParameterErrorMessage": "The parameter {{identifier}} is not a supported type of parameter.",
+        "invalidResponseErrorTitle": "Invalid WPS server response",
+        "invalidResponseErrorMessage": "An error occurred while accessing the status location on the WPS server for process name {{name}}.",
+        "invalidResponseError2Title": "Invalid response from WPS server",
+        "invalidResponseError2Message": "The response from the WPS server does not include a Status element.",
+        "failureReasonUnknowError": "The reason for failure is unknown.",
+        "asyncShortReportFailed": "Web Processing Service invocation failed.  More details are available on the Info panel.",
+        "errorDetails": "Error Details",
+        "resultPendingDescription": "This is the result of invoking the {{name}} process or service at {{timestamp}} with the input parameters below.",
+        "regionTypeDescription": "The type of region to analyze.",
+        "regionTypeName": "Region Type",
+        "regionParameterName": "Region Parameter",
+        "wpsServer": "Web Processing Service (WPS) Server",
+        "wpsResult": "Web Processing Service Result"
+      },
+      "webProcessingServiceCatalogGroup": {
+        "typeName": "Web Processing Service (WPS) Server",
+        "missingUrlTitle": "Unable to load GetCapabilities",
+        "missingUrlMessage": "Could not load the Web Processing Service (WPS) GetCapabilities document because the catalog item does not have a `url`.",
+        "invalidCapabilitiesTitle": "Invalid GetCapabilities",
+        "invalidCapabilitiesMessage": "The URL {{url}} was retrieved successfully but it does not appear to be a valid Web Processing Service (WPS) GetCapabilities document. \n\nEither the catalog file has been set up incorrectly, or the server address has changed.",
+        "invalidServerTitle": "Invalid WPS server",
+        "invalidServerMessage": "An error occurred while invoking GetCapabilities on the WPS server. The server's response does not appear to be a valid GetCapabilities document.",
+        "abstract": "Web Processing Service Description",
+        "accessConstraints": "Web Processing Service Access Constraints",
+        "fees": "Web Processing Service Fees",
+        "providerName": "Web Processing Service Provider Name",
+        "providerSite": "Web Processing Service Provider Site"
+      },
+      "wfsFeatures": {
+        "featuresGroup": "Group of features in a Web Feature Service (WFS) Server",
+        "queryErrorTitle": "Error querying WFS server",
+        "queryErrorMessage": "An error occurred while invoking GetFeature on the WFS server. The server's response does not appear to be a valid GeoJSON document.",
+        "groupNotAvailableTitle": "Group is not available",
+        "groupNotAvailableMessage": "An error occurred while invoking GetFeature on the WFS server."
+      },
+      "shadow": {
+        "name": "Shadows",
+        "options": {
+          "none": "None",
+          "cast": "Cast Only",
+          "receive": "Receive Only",
+          "both": "Cast and Receive"
+        }
+      },
+      "clippingBox": {
+        "groupName": "Clipping Box",
+        "clipModel": "Clip model",
+        "showClippingBox": "Show clipping box",
+        "keepBoxAboveGround": "Above ground only",
+        "clipDirection": {
+          "name": "Clip direction",
+          "options": {
+            "inside": "Clip inside the box",
+            "outside": "Clip outside the box"
+          }
+        }
+      },
+      "commonModelErrors": {
+        "3dTypeIn2dMode": "**Note:** This dataset can not be displayed in the 2D viewer. Switch to one of the 3D map modes."
+      },
+      "scaleDatasetNotVisible": {
+        "scaleZoomIn": "Dataset is not available at this scale, zoom in to see it",
+        "scaleZoomOut": "Dataset is not available at this scale, zoom out to see it"
+      }
+    },
+    "deltaTool": {
+      "titlePrefix": "Change Detection",
+      "description": "This tool visualizes the difference between imagery captured at two discrete points in time.",
+      "pickLocation": "To view available imagery, please select your location of interest on the map opposite.",
+      "cancelBtn": "Cancel",
+      "generateDeltaBtn": "Generate Difference Map",
+      "selectedLocation": "Selected Location",
+      "primaryImage": "Primary Image",
+      "secondaryImage": "Secondary Image",
+      "pickerMessage": {
+        "pickFirst": "Select a point by clicking on the map",
+        "pickAnother": "Click another point to change the selection",
+        "pickError": "Error when trying to resolve imagery at location! Please select a point again by clicking on the map."
+      },
+      "catalogItem": {
+        "description": "This layer visualizes the difference between imagery captured at two discrete points in time"
+      },
+      "loadingError": {
+        "title": "Error loading Delta Tool",
+        "message": "An error occurred while trying to load the delta tool from the server. Please try again."
+      }
+    },
+    "term": {
+      "missingContent": "missing content"
+    },
+    "mapNavigation": {
+      "additionalTools": "Additional tools",
+      "additionalToolsTitle": "Open additional tools"
+    },
+    "itemSearchTool": {
+      "toolLoadError": "Error loading search tool.",
+      "title": "Search {{itemName}}",
+      "loading": "Loading search parameters",
+      "loadError": "Error loading search parameters. Check console for detailed errors.",
+      "noParameters": "No searchable parameters found",
+      "searching": "Searching",
+      "searchError": "Search failed. Check console for detailed errors.",
+      "numericParameter": {
+        "minimum": "Minimum",
+        "maximum": "Maximum"
+      },
+      "searchBtnText": "Search",
+      "resetBtnText": "Clear input",
+      "backBtnText": "Search again",
+      "resultsCount": "{{count}} match found",
+      "resultsCount_plural": "{{count}} matches found",
+      "actions": {
+        "highlightAll": "Highlight all",
+        "showMatchingOnly": "Show matching only"
+      }
+    },
+    "indexedItemSearchProvider": {
+      "missingOptionIndexRootUrl": "Option `indexRootUrl` is missing in the item's search configuration.",
+      "errorParsingIndexRoot": "Error parsing indexRoot file: {{indexRootUrl}}."
+    },
+    "pedestrianMode": {
+      "toolButtonTitle": "Pedestrian Mode",
+      "dropPedestrianTooltipMessage": "<b>Left click</b> to select drop location<br /><b>Right click / Esc</b> to cancel",
+      "controls": {
+        "title": "Controls"
+      }
+    },
+    "notification": {
+      "title": "Message"
+    },
+    "toast": {
+      "mapIsZooming": "Loading ideal zoom..."
+    },
+    "printView": {
+      "loading": "Creating print view..."
+    },
+    "compare": {
+      "title": "Compare",
+      "done": "Done",
+      "leftPanel": "Left panel",
+      "rightPanel": "Right panel",
+      "entireMap": {
+        "title": "Entire map",
+        "emptyText": "Add new data to show across the entire map via the dotted menu above."
+      },
+      "entireMapMenu": {
+        "browse": "Browse map data",
+        "sendAllToFront": "Send all to front",
+        "sendAllToBack": "Send all to back",
+        "hideAll": "Hide all"
+      },
+      "info": "Compare spatial datasets from your workbench side-by-side on the map.",
+      "dataset": {
+        "label": "Dataset",
+        "selectOne": "Select one"
+      },
+      "dimensionSelector": {
+        "undefinedLabel": "Not specified"
+      },
+      "dateButton": {
+        "left": "Left",
+        "right": "Right",
+        "select": "Select a date"
+      },
+      "dateLocationFilter": {
+        "filter": "Filter date by location",
+        "loading": "Loading filter...",
+        "cancel": "Cancel",
+        "location": "Now showing available imagery for {{latitude}}, {{longitude}}",
+        "mouseTooltipTitle": "Select location",
+        "mouseTooltipMessage": "Right click to cancel"
+      }
+    }
+  }
+  

@@ -28,13 +28,16 @@ import "./global.scss";
 //   return /Android|iPhone|iPad/i.test(navigator.userAgent);
 // }
 
+//To add buttons to the left top:
+//<MenuLeft>
+//    <MenuItem caption="About" href="about.html" key="about-link" />
+//    <RelatedMaps viewState={props.viewState} />
+//</MenuLeft>
+
 export default function UserInterface(props) {
   return (
     <StandardUserInterface {...props} version={version}>
-      <MenuLeft>
-        <MenuItem caption="About" href="about.html" key="about-link" />
-        <RelatedMaps viewState={props.viewState} />
-      </MenuLeft>
+      <MenuLeft></MenuLeft>
       <ExperimentalMenu>
         {/* <If condition={isBrowserSupportedAV()}>
           <SplitPoint

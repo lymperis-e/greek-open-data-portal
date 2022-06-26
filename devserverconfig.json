@@ -2,26 +2,33 @@
     "port": 3001,
 
     "allowProxyFor" : [
-        "nicta.com.au",
-        "gov.au",
-        "csiro.au",
-        "arcgis.com",
-        "argo.jcommops.org",
-        "www.abc.net.au",
-        "geoserver.aurin.org.au",
+        "gaia.igme.gr",
+        "services.marre.gr",
+        "ypen.gr",
+        "ypen.gov.gr",
+        "geo.rae.gr",
+        "services.chalandri.gr",
+        "services3.arcgis.com",
+        "services.dpapxol.gov.gr",
+        "services.heraklion.gr",
+        "gis.kalamata.gr",
+        "geoserver.geopolisgis.gr",
+        "msa.ypeka.gr",
+        "shservices.mundiwebservices.com",
+        "gis.epoleodomia.gov.gr",
+        "wfdservices.ypeka.gr",
+        "climatlas.hnms.gr",
+        "wasteatlas.diktiofodsa.gr",
+        "app.gisislands.gr",
+        "sdi.piraeus.gov.gr",
+        "sdi.thessaloniki.gr",
+
+        
+
+
         "mapsengine.google.com",
         "s3-ap-southeast-2.amazonaws.com",
-        "adelaidecitycouncil.com",
-        "www.dptiapps.com.au",
-        "geoserver-123.aodn.org.au",
-        "geoserver.imos.org.au",
-        "nci.org.au",
-        "static.nationalmap.nicta.com.au",
-        "githubusercontent.com",
-        "gov",
-        "gov.uk",
-        "gov.nz",
-        "services.aremi.data61.io"
+        "data.osmbuildings.org"
     ]
 }
 

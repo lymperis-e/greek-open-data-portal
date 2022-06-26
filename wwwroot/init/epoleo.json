@@ -1,0 +1,13 @@
+
+
+{
+    "catalog": [
+        {
+            "id": "epoleo",
+            "name":"ePoleodomia",
+            "type":"esri-mapServer-group",
+            "url":"http://gis.epoleodomia.gov.gr/arcgis/rest/services/",
+            ]
+        }
+    ]
+}
