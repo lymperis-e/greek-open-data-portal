@@ -1,7 +1,6 @@
 Open Greek Geodata
 ==========
 
-# An open geodata portal
 This project aims to provide a centralised hub to preview, inspect and connect to open geospatial data sources & services for Greece. 
 
 Although many organizations in the country federate and provide geospatial information, 
