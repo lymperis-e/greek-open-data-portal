@@ -12,29 +12,29 @@
 
     /* Text that appears at the bottom of the map */
     "disclaimer": {
-      "text": "Disclaimer: This map must not be used for navigation or precise spatial analysis",
+      "text": "Disclaimer: The developer, host and any other party affiliated with developing and maintaining this software (data.elymperis.com) provide it for use AS IS, and are not in any case and under no circumstances responsible for any damage, financial or other, which may result from its use. It is also underlined that there is absolutely no affiliation between the afformentioned group and the publishers/maintainers of the data that the included services provide. As such, no responsibility concerning the data can be attributed to the developers, maintainers and any other party affiliated with this software (data.elymperis.com)",
       "url": ""
     },
-    /*
+    
         // Text that will be added to any pages printed from your site.
-        printDisclaimer:{
-            text:"Put your print disclaimer here.",
-            url: "#"
+        "printDisclaimer":{
+            "text":"The developer, host and any other party affiliated with developing and maintaining this software (data.elymperis.com) provide it for use AS IS, and are not in any case and under no circumstances responsible for any damage, financial or other, which may result from its use. It is also underlined that there is absolutely no affiliation between the afformentioned group and the publishers/maintainers of the data that the included services provide. As such, no responsibility concerning the data can be attributed to the developers, maintainers and any other party affiliated with this software (data.elymperis.com)",
+            "url": "#"
         },
-        */
+        
 
-    // Pop-up disclaimer that will be shown at the start
-    // The text of the disclaimer is in lib/Views/GlobalDisclaimer.html
-     //"globalDisclaimer": {
-     //    "confirmationRequired": false,
-     //    "buttonTitle": "I agree",
-     //    "title": "Disclaimer",
-     //    // If the current browser location is not prod, or is dev, then show a "not the real site" warning.
-     //    // The text of that is in lib/Views/DevelopmentDisclaimerPreamble.html
-     //    //prodHostRegex: "gov.\\.au$",
-     //    //devHostRegex: "\\b(staging|preview|test|dev)\\.",
-     //    "enableOnLocalhost": true // If false, don't show this when running on localhost
-     //},
+    /* Pop-up disclaimer that will be shown at the start
+    // The text of the disclaimer is in lib/Views/GlobalDisclaimer.html*/
+     "globalDisclaimer": {
+         "confirmationRequired": true,
+         "buttonTitle": "I agree",
+         "title": "Disclaimer",
+         // If the current browser location is not prod, or is dev, then show a "not the real site" warning.
+         // The text of that is in lib/Views/DevelopmentDisclaimerPreamble.html
+         //prodHostRegex: "gov.\\.au$",
+         //devHostRegex: "\\b(staging|preview|test|dev)\\.",
+         "enableOnLocalhost": true // If false, don't show this when running on localhost
+     },
 
     
         "developerAttribution": {

@@ -31,13 +31,6 @@
             ]
         },
         {
-            "id": "gys",
-            "name": "Ελληνική Στατιστική Αρχή (ΕΛΣΤΑΤ)",
-            "type": "esri-group",
-            "url": "https://gisserver.statistics.gr/webgis/rest/services/"
-        },
-
-        {
             "type": "group",
             "name": "Υπουργείο Περιβάλλοντος & Ενέργειας",
             "members": [
@@ -122,22 +115,10 @@
             "url": "http://gis.epoleodomia.gov.gr/arcgis/rest/services/"
         },
         {
-            "type": "group",
+            "id": "igme",
             "name": "Ελληνική Αρχή Γεωλογικών & Μεταλλευτικών Ερευνών (ΕΑΓΜΕ)",
-            "members": [
-                {
-                    "id": "igme2",
-                    "type": "wfs-group",
-                    "name": "Διανυσματικά",
-                    "url": "http://gaia.igme.gr/geoserver/wfs"
-                },
-                {
-                    "id": "igme1",
-                    "type": "wms-group",
-                    "name": "Ψηφιδωτά",
-                    "url": "http://gaia.igme.gr/geoserver/wms"
-                }
-            ]
+            "type": "esri-group",
+            "url": "https://gaia.igme.gr/server/rest/services"
         },
         {
             
@@ -158,11 +139,24 @@
                 }
             ]
         },
+       
         {
-            "id": "rae",
-            "type": "wfs-group",
+            "type": "group",
             "name": "Ρυθμιστική Αρχή Ενέργειας (ΡΑΕ)",
-            "url": "http://geo.rae.gr/geoserver/wfs"
+            "members": [
+                {
+                    "id": "rae-wfs",
+                    "type": "wfs-group",
+                    "name": "Διανυσματικά",
+                    "url": "https://geo.rae.gr/geoserver/rae_status/ows"
+                },
+                {
+                    "id": "rae-wms",
+                    "type": "wms-group",
+                    "name": "Ψηφιδωτά",
+                    "url": "https://geo.rae.gr/geoserver/rae_status/wms"
+                }
+            ]
         },
         {
             "type": "group",
@@ -219,7 +213,7 @@
             ]
         },
         
-        {
+        /*{
             "type": "group",
             "name": "Εθνική Μετεωρολογική Υπηρεσία - Κλιματικός Άτλας",
             "members": [
@@ -236,7 +230,7 @@
                     "url": "http://climatlas.hnms.gr/geoserver/wms"
                 }
             ]
-        },
+        },*/
         {
             "type": "group",
             "name": "Μητροπολιτικός Σχεδιασμός Αθηνών",
@@ -270,13 +264,7 @@
                         "type": "wms-group",
                         "name": "Περιφέρεια Θεσσαλίας",
                         "url": "https://services.sentinel-hub.com/ogc/wms/7f86b515-7301-4904-b7b0-974ce58bf82e"
-                }
-            ]
-        },
-        {
-            "type": "group",
-            "name": "Περιφέρειες - Δήμοι",
-            "members": [
+                },
                 {
                     "type": "group",
                     "name": "Περιφέρεια Αττικής",
@@ -399,7 +387,15 @@
                             "url": "https://services8.arcgis.com/5IrPMaiHYysccvch/arcgis/rest/services/"
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Δήμοι",
+            "members": [
+                
+                
                 {
                     "id": "chan",
                     "type": "wfs-group",
@@ -514,87 +510,6 @@
                     "type":"wms-group",
                     "name":"NASA - Global Imagery Browse Services (GIBS)",
                     "url":"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi?"
-                },
-                {
-                    "type":"group",
-                    "name":"Copernicus Marine",
-                    "members":[
-                        {
-                            "id":"cmems-1",
-                            "type":"wms-group",
-                            "name":"OCEANCOLOUR_MED_OPTICS_L4_NRT_OBSERVATIONS",
-                            "url":"https://nrt.cmems-du.eu/thredds/wms/dataset-oc-med-opt-olci-l4-kd490_300m_monthly-rt" 
-                        },
-                        {
-                            "id":"cmems-2",
-                            "type":"wms-group",
-                            "name":"Mediterranean Sea Waves Analysis and Forecast",
-                            "url":"https://nrt.cmems-du.eu/thredds/wms/med-hcmr-wav-an-fc-h" 
-                        },
-                        {
-                            "name":"Mediterranean Sea Biogeochemistry Analysis and Forecast ",
-                            "type": "group",
-                            "members":[
-                                {
-                                    "id":"bgc1",
-                                    "type":"wms-group",
-                                    "name":"Primary production and oxygen (3d) - daily mean",
-                                    "url":"https://nrt.cmems-du.eu/thredds/wms/med-ogs-bio-an-fc-d" 
-                                },
-                                {
-                                    "id":"bgc2",
-                                    "type":"wms-group",
-                                    "name":"Dissolved inorganic carbon, ph and alkalinity (3d) - daily mean",
-                                    "url":"https://nrt.cmems-du.eu/thredds/wms/med-ogs-car-an-fc-d" 
-                                },
-                                {
-                                    "id":"bgc3",
-                                    "type":"wms-group",
-                                    "name":"Surface partial pressure of co2 and surface co2 flux (2d) - daily mean",
-                                    "url":"https://nrt.cmems-du.eu/thredds/wms/med-ogs-co2-an-fc-d" 
-                                },
-                                {
-                                    "id":"bgc4",
-                                    "type":"wms-group",
-                                    "name":"Nitrate, phosphate, ammonium and silicate (3d) - daily mean",
-                                    "url":"https://nrt.cmems-du.eu/thredds/wms/med-ogs-nut-an-fc-d" 
-                                },
-                                {
-                                    "id":"bgc5",
-                                    "type":"wms-group",
-                                    "name":"Phytoplankton carbon biomass, zooplankton carbon biomass and chlorophyll (3d) - daily mean",
-                                    "url":"https://nrt.cmems-du.eu/thredds/wms/med-ogs-pft-an-fc-d" 
-                                }
-                                
-                                
-                            ]
-                        },
-                        {
-                            "name":"Mediterranean Sea High Resolution and Ultra High Resolution Sea Surface Temperature Analysis ",
-                            "type": "group",
-                            "members":[
-                                {
-                                    "id":"sst1",
-                                    "type":"wms-group",
-                                    "name":"Sea Surface Temperature",
-                                    "url":"https://nrt.cmems-du.eu/thredds/wms/SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_c_V2" 
-                                },
-                                {
-                                    "id":"sst2",
-                                    "type":"wms-group",
-                                    "name":"Sea Surface Temperature Anomally",
-                                    "url":"https://nrt.cmems-du.eu/thredds/wms/SST_MED_SSTA_L4_NRT_OBSERVATIONS_010_004_d" 
-                                }
-                            ]
-                        },
-                        {
-                            "name":"CMEMS CSW",
-                            "type": "csw-group",
-                            "includeWms": true,
-                          
-                            "url": "https://cmems-catalog-ro.cls.fr/geonetwork/srv/eng/csw-MYOCEAN-CORE-PRODUCTS"
-                          }
-                    ]
                 }
             ]
         },
@@ -739,19 +654,21 @@
                 },
                 "image": "build/TerriaJS/images/basemap_thumbnails/mapbox-camo.jpg"
             },
-            
-            //{
-            //    "item": {
-            //        "id": "esri-sat",
-            //        "name": "ESRI Satellite",
-            //        "type": "esri-mapServer",
-            //        "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
-            //        "layers": "3",
-            //        "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://www.openstreetmap.fr/'>OSM France</a>",
-            //        "opacity": 1.0
-            //    },
-            //    "image": "build/TerriaJS/images/basemap_thumbnails/esri.jpg"
-            //}
+            {
+                "item": {
+                    "id": "stamen-terrain",
+                    "name": "Stamen Terrain",
+                    "type": "open-street-map",
+                    "url": "http://tile.stamen.com/terrain/",
+                    "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://www.openstreetmap.fr/'>OSM France</a>",
+                    "subdomains": [
+                        "a",
+                        "b"
+                    ],
+                    "opacity": 1.0
+                },
+                "image": "build/TerriaJS/images/basemap_thumbnails/stamen-terrain.jpg"
+            },
         ],
         "defaultBaseMapId": "mapbox-satellite",
         "previewBaseMapId": "osm"
