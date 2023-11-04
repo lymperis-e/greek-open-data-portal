@@ -2,6 +2,5 @@
     "routes": [
       { "handle": "filesystem" },
       { "src": "/(.*)", "dest": "/node_modules/terriajs-server/terriajs-server.js" }
-    ]
+    ],
   }
-  
