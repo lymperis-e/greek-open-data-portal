@@ -1,0 +1,170 @@
+{
+  /* Names of init files (in wwwroot/init), without the .json extension, to load by default */
+  "initializationUrls": [
+    "simple"
+  ],
+  "parameters": {
+    "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIxMjZjNGMyYy02ZmJlLTQ1ZGYtOWE2NC0yYTdjYmZhODUxYTgiLCJpZCI6NDMyMjgsImlhdCI6MTYxNzMzNDA5OX0.ox0okdwvueefvj7I4KVd9KNqVOEsMStSTmn8sDhoim4",
+    "googleUrlShortenerKey": null,
+    "googleAnalyticsKey": "3616040063",
+    "googleAnalyticsOptions": null,
+    // Log ConsoleAnalytics events to console
+    // logToConsole: true,
+    /* Text that appears at the bottom of the map */
+    "disclaimer": {
+      "text": "Disclaimer: The developer, host and any other party affiliated with developing and maintaining this software (data.elymperis.com) provide it for use AS IS, and are not in any case and under no circumstances responsible for any damage, financial or other, which may result from its use. It is also underlined that there is absolutely no affiliation between the afformentioned group and the publishers/maintainers of the data that the included services provide. As such, no responsibility concerning the data can be attributed to the developers, maintainers and any other party affiliated with this software (data.elymperis.com)",
+      "url": ""
+    },
+    // Text that will be added to any pages printed from your site.
+    "printDisclaimer": {
+      "text": "The developer, host and any other party affiliated with developing and maintaining this software (data.elymperis.com) provide it for use AS IS, and are not in any case and under no circumstances responsible for any damage, financial or other, which may result from its use. It is also underlined that there is absolutely no affiliation between the afformentioned group and the publishers/maintainers of the data that the included services provide. As such, no responsibility concerning the data can be attributed to the developers, maintainers and any other party affiliated with this software (data.elymperis.com)",
+      "url": "#"
+    },
+    /* Pop-up disclaimer that will be shown at the start
+      // The text of the disclaimer is in lib/Views/GlobalDisclaimer.html*/
+    "globalDisclaimer": {
+      "confirmationRequired": true,
+      "buttonTitle": "I agree",
+      "title": "Disclaimer",
+      // If the current browser location is not prod, or is dev, then show a "not the real site" warning.
+      // The text of that is in lib/Views/DevelopmentDisclaimerPreamble.html
+      //prodHostRegex: "gov.\\.au$",
+      //devHostRegex: "\\b(staging|preview|test|dev)\\.",
+      "enableOnLocalhost": true // If false, don't show this when running on localhost
+    },
+    "developerAttribution": {
+      "text": "Efstathios Lymperis",
+      "link": "http://www.elymperis.com"
+    },
+    // This is used in various text messages. You should also set <title> in index.html
+    "appName": "Greek Open Geodata",
+    "relatedMaps": false,
+    "aboutButtonHrefUrl": "https://github.com/lymperis-e/greek-open-data-portal/tree/main",
+    "storyEnabled": true,
+    // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
+    "brandBarElements": [
+      "",
+      "<a target=\"_blank\" href=\"https://data.elymperis.com\"><img src=\"images/terria_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
+      ""
+    ],
+    "supportEmail": "geo.elymperis@gmsail.com",
+    "proj4ServiceBaseUrl": "proj4def/",
+    "feedbackUrl": "feedback",
+    "tabbedCatalog": false,
+    "mobileDefaultViewerMode": "2d",
+    "experimentalFeatures": true,
+    "welcomeMessageVideo": {
+      "videoTitle": "Getting started with the map",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/NTtSM70rIvI", // use an embedded video link
+      "placeholderImage": "https://img.youtube.com/vi/NTtSM70rIvI/maxresdefault.jpg"
+    },
+    "languageConfiguration": {
+      "enabled": true,
+      "debug": false,
+      "languages": {
+        "en": "English",
+        "gr": "Ελληνικά"
+      },
+      "fallbackLanguage": "en"
+    },
+    "helpContent": [
+      {
+        "title": "translate#gettingstarted.title",
+        "itemName": "gettingstarted",
+        "paneMode": "videoAndContent",
+        "markdownText": "translate#gettingstarted.markdownText",
+        "icon": "video",
+        "videoUrl": "translate#gettingstarted.videoUrl",
+        "placeholderImage": "translate#gettingstarted.placeholderImage"
+      },
+      {
+        "title": "translate#stepbystepguide.title",
+        "itemName": "stepbystepguide",
+        "paneMode": "trainer",
+        "markdownText": "translate#stepbystepguide.markdownText",
+        "icon": "oneTwoThree",
+        "trainerItems": [
+          {
+            "title": "translate#stepbystepguide.gettingstarted.title",
+            "footnote": "translate#stepbystepguide.gettingstarted.footnote",
+            "steps": [
+              {
+                "title": "translate#stepbystepguide.gettingstarted.step1.title",
+                "markdownDescription": "translate#stepbystepguide.gettingstarted.step1.markdownDescription"
+              },
+              {
+                "title": "translate#stepbystepguide.gettingstarted.step2.title",
+                "markdownDescription": "translate#stepbystepguide.gettingstarted.step2.markdownDescription"
+              },
+              {
+                "title": "translate#stepbystepguide.gettingstarted.step3.title",
+                "markdownDescription": "translate#stepbystepguide.gettingstarted.step3.markdownDescription"
+              },
+              {
+                "title": "translate#stepbystepguide.gettingstarted.step4.title"
+              },
+              {
+                "title": "translate#stepbystepguide.gettingstarted.step5.title"
+              },
+              {
+                "title": "translate#stepbystepguide.gettingstarted.step6.title"
+              },
+              {
+                "title": "translate#stepbystepguide.gettingstarted.step7.title"
+              },
+              {
+                "title": "translate#stepbystepguide.gettingstarted.step8.title"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "icon": "story",
+        "itemName": "storymigration",
+        "markdownText": "## Share & Story Migration\n\n### Guide on updating share links, including stories\n\nIf you've received a warning telling you that a share link was based off an older version of TerriaJS, you'll want to do a few things to recreate them in the latest version of Terria!\n\n#### Creators\n\n1. Identify the share URL which causes a notification of share preservation effort when loading them into Terria. e.g. you may know where they are embedded, or come across them accidentally\n2. Open them in the newer (v8) based map application \n3. Check that everything is sharing as you expect, tweak the layers to fit if some are missing or not behaving correctly.\n4. Update the share link by clicking the Share/Print button and copy the new link\n5. If distribution of share link is known, update the url in your web page (if embedded), or send the new link to users \n\n#### Consumers\n1. Load the share URL\n2. If it doesn't quite look right, notify the provider so they can follow the above steps to recreate it in the latest version of Terria",
+        "title": "Share & Story migration"
+      }
+    ],
+    "helpContentTerms": [
+      {
+        "term": "translate#helpContentTerm1.term",
+        "aliases": "translate#helpContentTerm1.aliases",
+        "content": "translate#helpContentTerm1.content"
+      },
+      {
+        "term": "translate#helpContentTerm2.term",
+        "aliases": "translate#helpContentTerm2.aliases",
+        "content": "translate#helpContentTerm1.content"
+      },
+      {
+        "term": "translate#helpContentTerm3.term",
+        "content": "translate#helpContentTerm3.content"
+      },
+      {
+        "term": "translate#helpContentTerm4.term",
+        "content": "translate#helpContentTerm4.content"
+      },
+      {
+        "term": "translate#helpContentTerm5.term",
+        "aliases": [
+          "catalogue"
+        ],
+        "content": "translate#helpContentTerm5.content"
+      },
+      {
+        "term": "translate#helpContentTerm6.term",
+        "aliases": "translate#helpContentTerm6.aliases",
+        "content": "translate#helpContentTerm6.content"
+      },
+      {
+        "term": "translate#helpContentTerm7.term",
+        "content": "translate#helpContentTerm7.content"
+      },
+      {
+        "term": "translate#helpContentTerm8.term",
+        "content": "translate#helpContentTerm8.content"
+      }
+    ]
+  }
+}

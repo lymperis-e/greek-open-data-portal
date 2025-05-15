@@ -1,0 +1,18 @@
+services:
+  terria:
+    image: opendatagr-terria:latest
+    container_name: terria
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./.greekopen-overrides/grdata-catalog.json:/app/wwwroot/init/simple.json
+      - ./.greekopen-overrides/config.json:/app/wwwroot/config.json
+      - ./.greekopen-overrides/serverconfig.json:/app/serverconfig.json 
+      # Images
+      - ./.greekopen-overrides/basemap_thumbnails:/app/wwwroot/build/TerriaJS/images/basemap_thumbnails
+      - ./.greekopen-overrides/wwwroot/images/logo.png:/app/wwwroot/images/terria_logo.png
+      - ./.greekopen-overrides/wwwroot/favicons:/app/wwwroot/favicons
