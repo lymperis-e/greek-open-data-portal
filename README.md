@@ -17,7 +17,7 @@ Feel free to :
 
 -------------------
 
-![Terria logo](logo.png "Terria logo")
+![OpenDataGrPortal Logo](logo.png "Open Greek Geodata Portal logo")
 ![Terria logo](terria-logo.png "Terria logo")
 
 

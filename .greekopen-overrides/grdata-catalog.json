@@ -1,0 +1,670 @@
+{
+  "homeCamera": {
+      "north": 42.15526,
+      "east": 33.62915,
+      "south": 34.39784,
+      "west": 16.55640
+  },
+  "catalog": [
+      {
+          "id": "elstat",
+          "name": "Ελληνική Στατιστική Αρχή (ΕΛΣΤΑΤ)",
+          "type": "esri-group",
+          "url": "https://gisserver.statistics.gr/webgis/rest/services/"
+      },
+      {
+          "type":"group",
+          "name":"Γεωγραφική Υπηρεσία Στρατού",
+          "members":[
+              {
+                  "id": "gys1",
+                  "name": "1",
+                  "type": "esri-group",
+                  "url": "https://services3.arcgis.com/XHzOnTCjjYWQyVf4/arcgis/rest/services/"
+              },
+              {
+                  "id": "gys2",
+                  "name": "2",
+                  "type": "esri-group",
+                  "url": "https://tiles.arcgis.com/tiles/XHzOnTCjjYWQyVf4/arcgis/rest/services/"
+              }
+          ]
+      },
+      {
+          "type": "group",
+          "name": "Υπουργείο Περιβάλλοντος & Ενέργειας",
+          "members": [
+              {
+                  "type": "group",
+                  "name": "Geoportal",
+                  "members": [
+                      {
+                          "id": "geoportalypenwfs",
+                          "type": "wfs-group",
+                          "name": "Διανυσματικά",
+                          "url": "http://geoportal.ypen.gr/geoserver/wfs"
+                      },
+                      {
+                          "id": "geoportalypenwms",
+                          "type": "wms-group",
+                          "name": "Ψηφιδωτά",
+                          "url": "http://geoportal.ypen.gr/geoserver/wms"
+                      }
+                  ]
+              },
+              {
+                  "type": "group",
+                  "name": "Maps Portal",
+                  "members": [
+                      {
+                          "id": "mapsportalypenwfs",
+                          "type": "wfs-group",
+                          "name": "Διανυσματικά",
+                          "url": "http://mapsportal.ypen.gr/geoserver/wfs"
+                      },
+                      {
+                          "id": "mapsportalypenwms",
+                          "type": "wms-group",
+                          "name": "Ψηφιδωτά",
+                          "url": "http://mapsportal.ypen.gr/geoserver/wms"
+                      }
+                  ]
+              },
+              {
+                  "type": "group",
+                  "name": "Ειδική Γραμματεία Υδάτων",
+                  "members": [
+                      {
+                          "id": "ypekawfs",
+                          "type": "wfs-group",
+                          "name": "Διανυσματικά",
+                          "url": "http://wfdservices.ypeka.gr/geoserver/wfs"
+                      },
+                      {
+                          "id": "ypekawms",
+                          "type": "wms-group",
+                          "name": "Ψηφιδωτά",
+                          "url": "http://wfdservices.ypeka.gr/geoserver/wms"
+                      }
+                  ]
+              },
+              {
+                  "type": "group",
+                  "name": "Θαλάσσιος Χώρος / Interreg",
+                  "members": [
+                      {
+                          "id": "thalxor",
+                          "type": "wfs-group",
+                          "name": "Διανυσματικά",
+                          "url": "https://thalchor-2.ypen.gov.gr/geoserver/wfs"
+                      },
+                      {
+                          "id": "thalxor2",
+                          "type": "wms-group",
+                          "name": "Ψηφιδωτά",
+                          "url": "https://thalchor-2.ypen.gov.gr/geoserver/wms"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "id": "epoleo",
+          "name": "ePoleodomia",
+          "type": "esri-group",
+          "url": "http://gis.epoleodomia.gov.gr/arcgis/rest/services/"
+      },
+      {
+          "id": "igme",
+          "name": "Ελληνική Αρχή Γεωλογικών & Μεταλλευτικών Ερευνών (ΕΑΓΜΕ)",
+          "type": "esri-group",
+          "url": "https://gaia.igme.gr/server/rest/services"
+      },
+      {
+          
+          "type": "group",
+          "name": "Πρόγραμμα MARRE (ΕΛΚΕΘΕ)",
+          "members": [
+              {
+                  "id": "marrewfs",
+                  "type": "wfs-group",
+                  "name": "Διανυσματικά",
+                  "url": "https://services.marre.gr/geoserver/wfs"
+              },
+              {
+                  "id": "marrewms",
+                  "type": "wms-group",
+                  "name": "Ψηφιδωτά",
+                  "url": "https://services.marre.gr/geoserver/wms"
+              }
+          ]
+      },
+     
+      {
+          "type": "group",
+          "name": "Ρυθμιστική Αρχή Ενέργειας (ΡΑΕ)",
+          "members": [
+              {
+                  "id": "rae-wfs",
+                  "type": "wfs-group",
+                  "name": "Διανυσματικά",
+                  "url": "https://geo.rae.gr/geoserver/rae_status/ows"
+              },
+              {
+                  "id": "rae-wms",
+                  "type": "wms-group",
+                  "name": "Ψηφιδωτά",
+                  "url": "https://geo.rae.gr/geoserver/rae_status/wms"
+              }
+          ]
+      },
+      {
+          "type": "group",
+          "name": "GEODATA.GOV",
+          "members": [
+              {
+                  "id": "gdgwfs",
+                  "type": "wfs-group",
+                  "name": "Διανυσματικά",
+                  "url": "https://geodata.gov.gr/geoserver/wfs"
+              },
+              {
+                  "id": "gdgwms",
+                  "type": "wms-group",
+                  "name": "Ψηφιδωτά",
+                  "url": "https://geodata.gov.gr/geoserver/wms"
+              }
+          ]
+      },
+      {
+          "type": "group",
+          "name": "Δίκτυο Αειφόρων Νησιών (ΔΑΦΝΗ)",
+          "members": [
+              {
+                  "id": "dafniwfs",
+                  "type": "wfs-group",
+                  "name": "Διανυσματικά",
+                  "url": "https://app.gisislands.gr/geoserver/wfs"
+              },
+              {
+                  "id": "dafniwms",
+                  "type": "wms-group",
+                  "name": "Ψηφιδωτά",
+                  "url": "https://app.gisislands.gr/geoserver/wms"
+              }
+          ]
+      },
+      {
+          "type": "group",
+          "name": "Δίκτυο ΦΟ.Δ.Σ.Α.",
+          "members": [
+              {
+                  "id": "fodsawfs",
+                  "type": "wfs-group",
+                  "name": "Διανυσματικά",
+                  "url": "http://wasteatlas.diktiofodsa.gr/geoserver/wfs"
+              },
+              {
+                  "id": "fodsawms",
+                  "type": "wms-group",
+                  "name": "Ψηφιδωτά",
+                  "url": "http://wasteatlas.diktiofodsa.gr/geoserver/wms"
+              }
+          ]
+      },
+      
+      /*{
+          "type": "group",
+          "name": "Εθνική Μετεωρολογική Υπηρεσία - Κλιματικός Άτλας",
+          "members": [
+              {
+                  "id": "emywfs",
+                  "type": "wfs-group",
+                  "name": "Διανυσματικά",
+                  "url": "http://climatlas.hnms.gr/geoserver/wfs"
+              },
+              {
+                  "id": "emywms",
+                  "type": "wms-group",
+                  "name": "Ψηφιδωτά",
+                  "url": "http://climatlas.hnms.gr/geoserver/wms"
+              }
+          ]
+      },*/
+      {
+          "type": "group",
+          "name": "Μητροπολιτικός Σχεδιασμός Αθηνών",
+          "members": [
+              {
+                  "id": "msawfs",
+                  "type": "wfs-group",
+                  "name": "Διανυσματικά",
+                  "url": "http://msa.ypeka.gr/geoserver/wfs"
+              },
+              {
+                  "id": "msawms",
+                  "type": "wms-group",
+                  "name": "Ψηφιδωτά",
+                  "url": "http://msa.ypeka.gr/geoserver/wms"
+              }
+          ]
+      },
+      {
+          "type":"group",
+          "name":"Περιφέρειες",
+          "members":[
+              {
+                  "id": "crete",
+                  "name":"Περιφέρεια Κρήτης",
+                  "type": "esri-group",
+                  "url": "https://geoportal.apdkritis.gov.gr/webgis/rest/services/emeric"
+              },
+              {
+                      "id": "thessalia",
+                      "type": "wms-group",
+                      "name": "Περιφέρεια Θεσσαλίας",
+                      "url": "https://services.sentinel-hub.com/ogc/wms/7f86b515-7301-4904-b7b0-974ce58bf82e"
+              },
+              {
+                  "type": "group",
+                  "name": "Περιφέρεια Αττικής",
+                  "members": [
+                      {
+                          "type": "group",
+                          "name": "Δήμος Βούλας-Βάρης-Βουλιαγμένης",
+                          "members": [
+                              {
+                                  "id": "voulawfs",
+                                  "type": "wfs-group",
+                                  "name": "Διανυσματικά",
+                                  "url": "https://geoserver.geopolisgis.gr/geoserver/wfs"
+                              },
+                              {
+                                  "id": "voulawms",
+                                  "type": "wms-group",
+                                  "name": "Ψηφιδωτά",
+                                  "url": "https://geoserver.geopolisgis.gr/geoserver/wms"
+                              }
+                          ]
+                      },
+                      {
+                          "type": "group",
+                          "name": "Δήμος Παπάγου-Χολαργού",
+                          "members": [
+                              {
+                                  "id": "papagouwfs",
+                                  "type": "wfs-group",
+                                  "name": "Διανυσματικά",
+                                  "url": "http://services.dpapxol.gov.gr/geoserver/wfs"
+                              },
+                              {
+                                  "id": "papagouwms",
+                                  "type": "wms-group",
+                                  "name": "Ψηφιδωτά",
+                                  "url": "http://services.dpapxol.gov.gr/geoserver/wms"
+                              }
+                          ]
+                      },
+                    
+                      {
+                          "id": "xalandri",
+                          "type": "wfs-group",
+                          "name": "Δήμος Χαλανδρίου",
+                          "url": "https://services.chalandri.gr/geoserver/wfs"
+                      },
+                      {
+                          "type": "group",
+                          "name": "Δήμος Πειραιά",
+                          "members": [
+                              {
+                                  "id": "peiraiaswfs",
+                                  "type": "wfs-group",
+                                  "name": "Διανυσματικά",
+                                  "url": "https://sdi.piraeus.gov.gr/geoserver/wfs"
+                              },
+                              {
+                                  "id": "peiraiaswms",
+                                  "type": "wms-group",
+                                  "name": "Ψηφιδωτά",
+                                  "url": "https://sdi.piraeus.gov.gr/geoserver/wms"
+                              }
+                          ]
+                      }
+
+                  ]
+              },
+              {
+                  "type": "group",
+                  "name": "Περιφέρεια Κεντρικής Μακεδονίας",
+                  "members": [
+                      
+                      {
+                          "type": "group",
+                          "name": "Δήμος Θεσσαλονίκης",
+                          "members": [
+                              {
+                                  "id": "thess-ras",
+                                  "type": "wfs-group",
+                                  "name": "Διανυσματικά Δεδομένα",
+                                  "url": "https://sdi.thessaloniki.gr/geoserver/wfs"
+                              },
+                              {
+                                  "id": "thess-vec",
+                                  "type": "wms-group",
+                                  "name": "Ψηφιδωτά Δεδομένα",
+                                  "url": "https://sdi.thessaloniki.gr/geoserver/wms"
+                              }
+                          ]
+                      },
+                      {
+                          "id": "ser",
+                          "name": "Δήμος Σερρών",
+                          "type": "esri-group",
+                          "url": "https://geocloud.infodim.gr/giswa/rest/services/Serres"
+                      },
+                      {
+                          "type": "group",
+                          "name": "Δήμος Παύλου Μελλά",
+                          "members": [
+                              {
+                                  "id": "mella1",
+                                  "type": "esri-featureServer-group",
+                                  "name": "Σταυρούπολη Γενικά",
+                                  "url": "https://services3.arcgis.com/sMRN1skMfkslexa0/ArcGIS/rest/services/stayrgen/FeatureServer"
+                              },
+                              {
+                                  "id": "mella2",
+                                  "type": "esri-featureServer-group",
+                                  "name": "Σταυρούπολη Πολεοδομικά",
+                                  "url": "https://services3.arcgis.com/sMRN1skMfkslexa0/ArcGIS/rest/services/stayrpol/FeatureServer"
+                              }
+                          ]
+                      },
+                      {
+                          "id": "kalamaria",
+                          "type": "esri-group",
+                          "name": "Καλαμαριάς",
+                          "url": "https://services8.arcgis.com/5IrPMaiHYysccvch/arcgis/rest/services/"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "type": "group",
+          "name": "Δήμοι",
+          "members": [
+              
+              
+              {
+                  "id": "chan",
+                  "type": "wfs-group",
+                  "name": "Δήμος Χανίων",
+                  "url": "https://gisservices.chania.gr/geoserver/wfs"
+              },
+              {
+                  "type": "group",
+                  "name": "Δήμος Ηρακλείου",
+                  "members": [
+                      {
+                          "id": "herv",
+                          "type": "wfs-group",
+                          "name": "Διανυσματικά Δεδομένα",
+                          "url": "http://services.heraklion.gr/geoserver/wfs"
+                      },
+                      {
+                          "id": "herr",
+                          "type": "wms-group",
+                          "name": "Ψηφιδωτά Δεδομένα",
+                          "url": "http://services.heraklion.gr/geoserver/wms"
+                      }
+                  ]
+              },
+              {
+                  "type": "group",
+                  "name": "Δήμος Καλαμάτας",
+                  "members": [
+                      {
+                          "id": "kal-ras",
+                          "type": "wfs-group",
+                          "name": "Διανυσματικά Δεδομένα",
+                          "url": "http://gis.kalamata.gr/geoserver/klmtvec/wfs"
+                      },
+                      {
+                          "id": "kal-vec",
+                          "type": "wms-group",
+                          "name": "Ψηφιδωτά Δεδομένα",
+                          "url": "http://gis.kalamata.gr/geoserver/klmtvec/wms"
+                      }
+                  ]
+              },
+              {
+                  "id": "patr",
+                  "name": "Δήμος Πατρών",
+                  "type": "esri-group",
+                  "url": "https://gissrvweb.geopatras.gr/webpoleod/rest/services/poleod"
+              },
+              {
+                  "id": "larisa",
+                  "name": "Δήμος Λάρισας",
+                  "type": "esri-group",
+                  "url": "https://gis.larissa-dimos.gr/server/rest/services/"
+              },
+              {
+                  "id": "volos",
+                  "name": "Δήμος Βόλου",
+                  "type": "esri-group",
+                  "url": "https://services1.arcgis.com/pEPtv3H99tct0yyg/arcgis/rest/services/"
+              },
+              {
+                  "id": "kozani",
+                  "name": "Δήμος Κοζάνης",
+                  "type": "esri-group",
+                  "url": "https://services8.arcgis.com/4lHpWT7YoiJ0hk3u/arcgis/rest/services/"
+              },
+             
+              {
+                  "id": "trikala",
+                  "name": "Δήμος Τρικκαίων",
+                  "type": "esri-group",
+                  "url": "https://services8.arcgis.com/WviT8ecuvqxI4l6m/arcgis/rest/services/"
+              }
+          ]
+      },
+      {
+          "name":"Δορυφορικά Προϊόντα",
+          "type":"group",
+          "members":[
+              {
+                  "type": "group",
+                  "name": "EUMESAT (Ευρωπαϊκοί Γεωστατικοί Δορυφόροι Καιρού)",
+                  "members": [
+                      {
+                          "id": "eumetsat-ras",
+                          "type": "wfs-group",
+                          "name": "Διανυσματικά Δεδομένα",
+                          "url": "https://view.eumetsat.int/geoserver/wfs"
+                      },
+                      {
+                          "id": "eumetsat-vec",
+                          "type": "wms-group",
+                          "name": "Ψηφιδωτά Δεδομένα",
+                          "url": "https://view.eumetsat.int/geoserver/wms"
+                      }
+                  ]
+              },
+              {
+                  "id":"esa-wmts-1",
+                  "type":"wmts-group",
+                  "name":"ESA - Terrascope",
+                  "url":"https://services.terrascope.be/wmts/v2"
+              },
+              {
+                  "id":"nasa-wms-1",
+                  "type":"wms-group",
+                  "name":"NASA - Global Imagery Browse Services (GIBS)",
+                  "url":"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi?"
+              }
+          ]
+      },
+      {
+          "name": "3D Κτίρια (Cesium 3D Buildings)",
+          "type": "3d-tiles",
+          "cacheDuration": "1d",
+          "ionAssetId": 96188,
+          "ionAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI0ZTE5MTE3Ny01YmVlLTQzZTctOWUwZS0zZjNiZWQ4ZGY2M2UiLCJpZCI6ODMyNDUsImlhdCI6MTY0NTQ1NDMxNX0.4WW1wUm7UfXsM-7WbBQUVTz_5erIIJckVsHAddbxa1g",
+          "style": {
+              "color": "Boolean(${feature['cesium#color']}) ? color(${feature['cesium#color']}) : rgb(255,255,255)"
+          },
+          "colorBlendMode": "HIGHLIGHT"
+      }
+  ],
+
+  "baseMaps": {
+      "items": [
+          {
+              "item": {
+                  "id": "carto-voyager",
+                  "name": "Carto Voyager with labels",
+                  "type": "open-street-map",
+                  "url": "https://basemaps.cartocdn.com/rastertiles/voyager_labels_under/",
+                  "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://carto.com/about-carto/'>CARTO</a>",
+                  "subdomains": [
+                      "a",
+                      "b",
+                      "c",
+                      "d"
+                  ],
+                  "opacity": 1.0
+              },
+              "image": "build/TerriaJS/images/basemap_thumbnails/carto-voyager.jpg"
+          },
+          {
+              "item": {
+                  "id": "mapbox-satellite",
+                  "name": "Mapbox Satellite",
+                  "type": "mapbox-map",
+                  "mapId":"mapbox.satellite",
+                  "url": "https://api.mapbox.com/v4/",
+                  "accessToken":"pk.eyJ1IjoiZ2VvbWVsYWRtaW4iLCJhIjoiY2t6dmZrdjFrMWt4azJ3bzlranZ3YjM5NCJ9.9uAI-Hji8-N3nXhvfRVl1w",
+                  "attribution": "© <a href='https://www.mapbox.com/'>Mapbox Satellite</a>"
+              },
+              "image": "build/TerriaJS/images/basemap_thumbnails/mapbox-satellite.jpg"
+          },
+          {
+              "item": {
+                  "id": "osm",
+                  "name": "Open Street Map",
+                  "type": "open-street-map",
+                  "url": "https://tile.openstreetmap.org/",
+                  "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
+                  "subdomains": [
+                      "a",
+                      "b"
+                  ],
+                  "opacity": 1.0
+              },
+              "image": "build/TerriaJS/images/basemap_thumbnails/osm.jpg"
+          },
+          {
+              "item": {
+                  "id": "osm-hum",
+                  "name": "Humanitarian Open Street Map",
+                  "type": "open-street-map",
+                  "url": "http://tile.openstreetmap.fr/hot/",
+                  "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://www.openstreetmap.fr/'>OSM France</a>",
+                  "subdomains": [
+                      "a",
+                      "b"
+                  ],
+                  "opacity": 1.0
+              },
+              "image": "build/TerriaJS/images/basemap_thumbnails/hosm.jpg"
+          },
+          
+          {
+              "item": {
+                  "id": "stamen-toner",
+                  "name": "Stamen Toner",
+                  "type": "open-street-map",
+                  "url": "http://tile.stamen.com/toner/",
+                  "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://www.openstreetmap.fr/'>OSM France</a>",
+                  "subdomains": [
+                      "a",
+                      "b"
+                  ],
+                  "opacity": 1.0
+              },
+              "image": "build/TerriaJS/images/basemap_thumbnails/stamen-toner.jpg"
+          },
+          {
+              "item": {
+                  "id": "stamen-watercolor",
+                  "name": "Stamen Watercolor",
+                  "type": "open-street-map",
+                  "url": "http://tile.stamen.com/watercolor/",
+                  "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://www.openstreetmap.fr/'>OSM France</a>",
+                  "subdomains": [
+                      "a",
+                      "b"
+                  ],
+                  "opacity": 1.0
+              },
+              "image": "build/TerriaJS/images/basemap_thumbnails/stamen-watercolor.jpg"
+          },
+          {
+              "item": {
+                  "id": "mapbox-mineral",
+                  "name": "Mapbox Mineral",
+                  "type": "mapbox-style",
+                  "username":"geomeladmin",
+                  "styleId": "cl4pzrxm0000514p9nkql0ovs",
+                  "accessToken":"pk.eyJ1IjoiZ2VvbWVsYWRtaW4iLCJhIjoiY2t6dmZrdjFrMWt4azJ3bzlranZ3YjM5NCJ9.9uAI-Hji8-N3nXhvfRVl1w",
+                  "attribution": "© <a href='https://www.mapbox.com/'>Mapbox Mineral</a>"
+              },
+              "image": "build/TerriaJS/images/basemap_thumbnails/mapbox-mineral.jpg"
+          },
+          {
+              "item": {
+                  "id": "mapbox-salvo",
+                  "name": "Mapbox Salvo",
+                  "type": "mapbox-style",
+                  "username":"salvo771997",
+                  "styleId": "cl4qvu43c000414pdzw26vpkp",
+                  "accessToken":"pk.eyJ1Ijoic2Fsdm83NzE5OTciLCJhIjoiY2w0cXUzMzM5MDh6aTNicGQyMDY2MDRleSJ9.QrbpXjyfhO6VW7LpmTxBPQ",
+                  "attribution": "© <a href='https://www.mapbox.com/'>Mapbox Salvo</a>"
+              },
+              "image": "build/TerriaJS/images/basemap_thumbnails/mapbox-salvo.jpg"
+          },
+          {
+              "item": {
+                  "id": "mapbox-camo",
+                  "name": "Mapbox Camo",
+                  "type": "mapbox-style",
+                  "username":"geomeladmin",
+                  "styleId": "cl4rjhvpk001k15owwppxggyz",
+                  "accessToken":"pk.eyJ1Ijoic2Fsdm83NzE5OTciLCJhIjoiY2w0cXUzMzM5MDh6aTNicGQyMDY2MDRleSJ9.QrbpXjyfhO6VW7LpmTxBPQ",
+                  "attribution": "© <a href='https://www.mapbox.com/'>Mapbox Camo</a>"
+              },
+              "image": "build/TerriaJS/images/basemap_thumbnails/mapbox-camo.jpg"
+          },
+          {
+              "item": {
+                  "id": "stamen-terrain",
+                  "name": "Stamen Terrain",
+                  "type": "open-street-map",
+                  "url": "http://tile.stamen.com/terrain/",
+                  "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://www.openstreetmap.fr/'>OSM France</a>",
+                  "subdomains": [
+                      "a",
+                      "b"
+                  ],
+                  "opacity": 1.0
+              },
+              "image": "build/TerriaJS/images/basemap_thumbnails/stamen-terrain.jpg"
+          },
+      ],
+      "defaultBaseMapId": "mapbox-satellite",
+      "previewBaseMapId": "osm"
+  }
+}
