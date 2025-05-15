@@ -1,6 +1,6 @@
 services:
   terria:
-    image: opendatagr-terria:latest
+    image: ghcr.io/lymperis-e/greek-open-data-portal:2.0.1
     container_name: terria
     build:
       context: .
