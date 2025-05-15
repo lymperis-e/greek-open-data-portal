@@ -1,0 +1,3 @@
+[submodule "terriamap"]
+	path = terriamap
+	url = https://github.com/TerriaJS/TerriaMap.git
