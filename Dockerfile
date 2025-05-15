@@ -10,6 +10,7 @@ COPY --chown=node:node ./terriamap /app
 #  overrides
 COPY --chown=node:node ./.greekopen-overrides/lib/Views/GlobalDisclaimer.html /app/lib/Views/GlobalDisclaimer.html
 COPY --chown=node:node ./.greekopen-overrides/wwwroot/languages/gr /app/wwwroot/languages/gr
+COPY --chown=node:node ./.greekopen-overrides/wwwroot/favicons /app/wwwroot/favicons
 COPY --chown=node:node ./.greekopen-overrides/wwwroot/images/logo.png /app/wwwroot/images/terria_logo.png
 
 WORKDIR /app
