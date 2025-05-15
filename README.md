@@ -12,10 +12,13 @@ Feel free to :
 - Contribute 🚀
 - Suggest new data sources 🛸
 
+---
 
+```bash
+docker compose up -d
+```
 
-
--------------------
+---
 
 ![OpenDataGrPortal Logo](logo.png "Open Greek Geodata Portal logo")
 ![Terria logo](terria-logo.png "Terria logo")
